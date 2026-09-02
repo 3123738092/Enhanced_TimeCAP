@@ -87,6 +87,8 @@ if __name__ == '__main__':
     
     parser.add_argument('--lmbda', type=float)
     parser.add_argument('--lm_model', type=str, default='bert')
+    parser.add_argument('--model_arch', type=str, default='model',
+                        help='model module: model (TimeCAP) | models.dlinear | models.patchtst | models.gpt4ts')
 
     args = parser.parse_args()
 

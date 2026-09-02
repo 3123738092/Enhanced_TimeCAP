@@ -1,0 +1,4426 @@
+[
+ {
+  "baseline": "tslib_dlinear",
+  "ds": "weather_ny",
+  "cfg": {
+   "moving_avg": 5,
+   "learning_rate": 0.0001
+  },
+  "gpu": 2,
+  "val_macro": 0.562,
+  "test_micro": 0.6064790228359002,
+  "test_macro": 0.5547177699236483,
+  "sec": 22,
+  "err": null
+ },
+ {
+  "baseline": "tslib_dlinear",
+  "ds": "weather_ny",
+  "cfg": {
+   "moving_avg": 5,
+   "learning_rate": 0.001
+  },
+  "gpu": 3,
+  "val_macro": 0.556,
+  "test_micro": 0.6425916091343601,
+  "test_macro": 0.5703777157376755,
+  "sec": 28,
+  "err": null
+ },
+ {
+  "baseline": "tslib_dlinear",
+  "ds": "weather_ny",
+  "cfg": {
+   "moving_avg": 3,
+   "learning_rate": 0.001
+  },
+  "gpu": 3,
+  "val_macro": 0.554,
+  "test_micro": 0.596388741370154,
+  "test_macro": 0.5720567162108174,
+  "sec": 29,
+  "err": null
+ },
+ {
+  "baseline": "tslib_dlinear",
+  "ds": "weather_ny",
+  "cfg": {
+   "moving_avg": 3,
+   "learning_rate": 0.0001
+  },
+  "gpu": 2,
+  "val_macro": 0.58,
+  "test_micro": 0.6202867764206054,
+  "test_macro": 0.5731056343543514,
+  "sec": 34,
+  "err": null
+ },
+ {
+  "baseline": "tslib_dlinear",
+  "ds": "weather_sf",
+  "cfg": {
+   "moving_avg": 3,
+   "learning_rate": 0.001
+  },
+  "gpu": 3,
+  "val_macro": 0.526,
+  "test_micro": 0.5730217737652682,
+  "test_macro": 0.5387897103444914,
+  "sec": 20,
+  "err": null
+ },
+ {
+  "baseline": "tslib_dlinear",
+  "ds": "weather_sf",
+  "cfg": {
+   "moving_avg": 5,
+   "learning_rate": 0.0001
+  },
+  "gpu": 2,
+  "val_macro": 0.597,
+  "test_micro": 0.6022304832713755,
+  "test_macro": 0.5535124833600048,
+  "sec": 20,
+  "err": null
+ },
+ {
+  "baseline": "tslib_dlinear",
+  "ds": "weather_sf",
+  "cfg": {
+   "moving_avg": 3,
+   "learning_rate": 0.0001
+  },
+  "gpu": 2,
+  "val_macro": 0.605,
+  "test_micro": 0.6473712161444504,
+  "test_macro": 0.58678955453149,
+  "sec": 30,
+  "err": null
+ },
+ {
+  "baseline": "tslib_dlinear",
+  "ds": "weather_sf",
+  "cfg": {
+   "moving_avg": 5,
+   "learning_rate": 0.001
+  },
+  "gpu": 3,
+  "val_macro": 0.476,
+  "test_micro": 0.6197557089750398,
+  "test_macro": 0.5407517317680657,
+  "sec": 49,
+  "err": null
+ },
+ {
+  "baseline": "tslib_dlinear",
+  "ds": "weather_hs",
+  "cfg": {
+   "moving_avg": 3,
+   "learning_rate": 0.0001
+  },
+  "gpu": 2,
+  "val_macro": 0.657,
+  "test_micro": 0.6659585767392459,
+  "test_macro": 0.6330370650822454,
+  "sec": 38,
+  "err": null
+ },
+ {
+  "baseline": "tslib_dlinear",
+  "ds": "weather_hs",
+  "cfg": {
+   "moving_avg": 5,
+   "learning_rate": 0.0001
+  },
+  "gpu": 2,
+  "val_macro": 0.655,
+  "test_micro": 0.6484333510355815,
+  "test_macro": 0.629562468945613,
+  "sec": 40,
+  "err": null
+ },
+ {
+  "baseline": "tslib_dlinear",
+  "ds": "weather_hs",
+  "cfg": {
+   "moving_avg": 3,
+   "learning_rate": 0.001
+  },
+  "gpu": 3,
+  "val_macro": 0.643,
+  "test_micro": 0.6856080722251726,
+  "test_macro": 0.6530285486622094,
+  "sec": 46,
+  "err": null
+ },
+ {
+  "baseline": "tslib_dlinear",
+  "ds": "finance_sp500",
+  "cfg": {
+   "moving_avg": 3,
+   "learning_rate": 0.0001
+  },
+  "gpu": 2,
+  "val_macro": 0.311,
+  "test_micro": 0.5064620355411955,
+  "test_macro": 0.35087276952346286,
+  "sec": 36,
+  "err": null
+ },
+ {
+  "baseline": "tslib_dlinear",
+  "ds": "finance_sp500",
+  "cfg": {
+   "moving_avg": 5,
+   "learning_rate": 0.0001
+  },
+  "gpu": 2,
+  "val_macro": 0.361,
+  "test_micro": 0.2407108239095315,
+  "test_macro": 0.2425407098811354,
+  "sec": 27,
+  "err": null
+ },
+ {
+  "baseline": "tslib_dlinear",
+  "ds": "finance_sp500",
+  "cfg": {
+   "moving_avg": 3,
+   "learning_rate": 0.001
+  },
+  "gpu": 3,
+  "val_macro": 0.33,
+  "test_micro": 0.4975767366720517,
+  "test_macro": 0.41368894998039013,
+  "sec": 34,
+  "err": null
+ },
+ {
+  "baseline": "tslib_dlinear",
+  "ds": "weather_hs",
+  "cfg": {
+   "moving_avg": 5,
+   "learning_rate": 0.001
+  },
+  "gpu": 3,
+  "val_macro": 0.642,
+  "test_micro": 0.6510886882634095,
+  "test_macro": 0.6305475827917313,
+  "sec": 45,
+  "err": null
+ },
+ {
+  "baseline": "tslib_dlinear",
+  "ds": "finance_nikkei",
+  "cfg": {
+   "moving_avg": 3,
+   "learning_rate": 0.0001
+  },
+  "gpu": 2,
+  "val_macro": 0.332,
+  "test_micro": 0.5525040387722132,
+  "test_macro": 0.3256395295982915,
+  "sec": 24,
+  "err": null
+ },
+ {
+  "baseline": "tslib_dlinear",
+  "ds": "finance_sp500",
+  "cfg": {
+   "moving_avg": 5,
+   "learning_rate": 0.001
+  },
+  "gpu": 3,
+  "val_macro": 0.309,
+  "test_micro": 0.5969305331179321,
+  "test_macro": 0.42104676981291966,
+  "sec": 28,
+  "err": null
+ },
+ {
+  "baseline": "tslib_dlinear",
+  "ds": "finance_nikkei",
+  "cfg": {
+   "moving_avg": 3,
+   "learning_rate": 0.001
+  },
+  "gpu": 3,
+  "val_macro": 0.328,
+  "test_micro": 0.6252019386106623,
+  "test_macro": 0.32375411239095786,
+  "sec": 25,
+  "err": null
+ },
+ {
+  "baseline": "tslib_dlinear",
+  "ds": "finance_nikkei",
+  "cfg": {
+   "moving_avg": 5,
+   "learning_rate": 0.0001
+  },
+  "gpu": 2,
+  "val_macro": 0.349,
+  "test_micro": 0.31098546042003233,
+  "test_macro": 0.2726253832163432,
+  "sec": 25,
+  "err": null
+ },
+ {
+  "baseline": "tslib_dlinear",
+  "ds": "healthcare_mortality",
+  "cfg": {
+   "moving_avg": 3,
+   "learning_rate": 0.0001
+  },
+  "gpu": 2,
+  "val_macro": 0.658,
+  "test_micro": 0.7413333333333333,
+  "test_macro": 0.7188710013988824,
+  "sec": 23,
+  "err": null
+ },
+ {
+  "baseline": "tslib_dlinear",
+  "ds": "healthcare_mortality",
+  "cfg": {
+   "moving_avg": 3,
+   "learning_rate": 0.001
+  },
+  "gpu": 3,
+  "val_macro": 0.752,
+  "test_micro": 0.8293333333333334,
+  "test_macro": 0.8109283418415579,
+  "sec": 26,
+  "err": null
+ },
+ {
+  "baseline": "tslib_dlinear",
+  "ds": "healthcare_mortality",
+  "cfg": {
+   "moving_avg": 5,
+   "learning_rate": 0.0001
+  },
+  "gpu": 2,
+  "val_macro": 0.658,
+  "test_micro": 0.752,
+  "test_macro": 0.7286520132269987,
+  "sec": 27,
+  "err": null
+ },
+ {
+  "baseline": "tslib_dlinear",
+  "ds": "finance_nikkei",
+  "cfg": {
+   "moving_avg": 5,
+   "learning_rate": 0.001
+  },
+  "gpu": 3,
+  "val_macro": 0.325,
+  "test_micro": 0.462843295638126,
+  "test_macro": 0.37376903849245674,
+  "sec": 41,
+  "err": null
+ },
+ {
+  "baseline": "tslib_dlinear",
+  "ds": "healthcare_positive",
+  "cfg": {
+   "moving_avg": 3,
+   "learning_rate": 0.0001
+  },
+  "gpu": 2,
+  "val_macro": 0.469,
+  "test_micro": 0.6885245901639344,
+  "test_macro": 0.4077669902912621,
+  "sec": 16,
+  "err": null
+ },
+ {
+  "baseline": "tslib_dlinear",
+  "ds": "healthcare_positive",
+  "cfg": {
+   "moving_avg": 3,
+   "learning_rate": 0.001
+  },
+  "gpu": 3,
+  "val_macro": 0.469,
+  "test_micro": 0.7939110070257611,
+  "test_macro": 0.7545464046822743,
+  "sec": 18,
+  "err": null
+ },
+ {
+  "baseline": "tslib_dlinear",
+  "ds": "healthcare_positive",
+  "cfg": {
+   "moving_avg": 5,
+   "learning_rate": 0.0001
+  },
+  "gpu": 2,
+  "val_macro": 0.469,
+  "test_micro": 0.6885245901639344,
+  "test_macro": 0.4077669902912621,
+  "sec": 17,
+  "err": null
+ },
+ {
+  "baseline": "tslib_dlinear",
+  "ds": "healthcare_mortality",
+  "cfg": {
+   "moving_avg": 5,
+   "learning_rate": 0.001
+  },
+  "gpu": 3,
+  "val_macro": 0.844,
+  "test_micro": 0.8613333333333333,
+  "test_macro": 0.8474846702540357,
+  "sec": 32,
+  "err": null
+ },
+ {
+  "baseline": "tslib_dlinear",
+  "ds": "healthcare_positive",
+  "cfg": {
+   "moving_avg": 5,
+   "learning_rate": 0.001
+  },
+  "gpu": 3,
+  "val_macro": 0.469,
+  "test_micro": 0.7915690866510539,
+  "test_macro": 0.7511997119381977,
+  "sec": 17,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "weather_ny",
+  "cfg": {
+   "e_layers": 1,
+   "n_heads": 4,
+   "dropout": 0.0,
+   "learning_rate": 0.001
+  },
+  "gpu": 3,
+  "val_macro": 0.595,
+  "test_micro": 0.7392458842272969,
+  "test_macro": 0.6821624093080338,
+  "sec": 44,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "weather_ny",
+  "cfg": {
+   "e_layers": 1,
+   "n_heads": 4,
+   "dropout": 0.0,
+   "learning_rate": 0.0001
+  },
+  "gpu": 2,
+  "val_macro": 0.598,
+  "test_micro": 0.6728624535315985,
+  "test_macro": 0.6177486369915741,
+  "sec": 52,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "weather_ny",
+  "cfg": {
+   "e_layers": 1,
+   "n_heads": 4,
+   "dropout": 0.1,
+   "learning_rate": 0.0001
+  },
+  "gpu": 2,
+  "val_macro": 0.579,
+  "test_micro": 0.66064790228359,
+  "test_macro": 0.6080136461265662,
+  "sec": 47,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "weather_ny",
+  "cfg": {
+   "e_layers": 1,
+   "n_heads": 4,
+   "dropout": 0.1,
+   "learning_rate": 0.001
+  },
+  "gpu": 3,
+  "val_macro": 0.598,
+  "test_micro": 0.7057886351566649,
+  "test_macro": 0.6518790579214899,
+  "sec": 55,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "weather_ny",
+  "cfg": {
+   "e_layers": 1,
+   "n_heads": 4,
+   "dropout": 0.2,
+   "learning_rate": 0.001
+  },
+  "gpu": 3,
+  "val_macro": 0.6,
+  "test_micro": 0.6978226234731811,
+  "test_macro": 0.6249541005653549,
+  "sec": 31,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "weather_ny",
+  "cfg": {
+   "e_layers": 1,
+   "n_heads": 4,
+   "dropout": 0.2,
+   "learning_rate": 0.0001
+  },
+  "gpu": 2,
+  "val_macro": 0.569,
+  "test_micro": 0.5969198088157196,
+  "test_macro": 0.5593235546864521,
+  "sec": 34,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "weather_ny",
+  "cfg": {
+   "e_layers": 1,
+   "n_heads": 8,
+   "dropout": 0.0,
+   "learning_rate": 0.001
+  },
+  "gpu": 3,
+  "val_macro": 0.598,
+  "test_micro": 0.7265002655337228,
+  "test_macro": 0.6726038852893981,
+  "sec": 38,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "weather_ny",
+  "cfg": {
+   "e_layers": 1,
+   "n_heads": 8,
+   "dropout": 0.0,
+   "learning_rate": 0.0001
+  },
+  "gpu": 2,
+  "val_macro": 0.596,
+  "test_micro": 0.676048858204992,
+  "test_macro": 0.6203940184701942,
+  "sec": 54,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "weather_ny",
+  "cfg": {
+   "e_layers": 1,
+   "n_heads": 8,
+   "dropout": 0.1,
+   "learning_rate": 0.0001
+  },
+  "gpu": 2,
+  "val_macro": 0.567,
+  "test_micro": 0.605416887944769,
+  "test_macro": 0.5577835269054433,
+  "sec": 31,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "weather_ny",
+  "cfg": {
+   "e_layers": 1,
+   "n_heads": 8,
+   "dropout": 0.1,
+   "learning_rate": 0.001
+  },
+  "gpu": 3,
+  "val_macro": 0.595,
+  "test_micro": 0.712161444503452,
+  "test_macro": 0.6489560029828486,
+  "sec": 46,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "weather_ny",
+  "cfg": {
+   "e_layers": 1,
+   "n_heads": 8,
+   "dropout": 0.2,
+   "learning_rate": 0.001
+  },
+  "gpu": 3,
+  "val_macro": 0.601,
+  "test_micro": 0.7068507700477961,
+  "test_macro": 0.6392750351904448,
+  "sec": 40,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "weather_ny",
+  "cfg": {
+   "e_layers": 1,
+   "n_heads": 8,
+   "dropout": 0.2,
+   "learning_rate": 0.0001
+  },
+  "gpu": 2,
+  "val_macro": 0.565,
+  "test_micro": 0.6160382368560807,
+  "test_macro": 0.5742389031235722,
+  "sec": 49,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "weather_ny",
+  "cfg": {
+   "e_layers": 1,
+   "n_heads": 16,
+   "dropout": 0.0,
+   "learning_rate": 0.0001
+  },
+  "gpu": 2,
+  "val_macro": 0.596,
+  "test_micro": 0.6723313860860329,
+  "test_macro": 0.6183808108263465,
+  "sec": 42,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "weather_ny",
+  "cfg": {
+   "e_layers": 1,
+   "n_heads": 16,
+   "dropout": 0.0,
+   "learning_rate": 0.001
+  },
+  "gpu": 3,
+  "val_macro": 0.584,
+  "test_micro": 0.7424322889006904,
+  "test_macro": 0.688084571396564,
+  "sec": 48,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "weather_ny",
+  "cfg": {
+   "e_layers": 1,
+   "n_heads": 16,
+   "dropout": 0.1,
+   "learning_rate": 0.0001
+  },
+  "gpu": 2,
+  "val_macro": 0.574,
+  "test_micro": 0.608072225172597,
+  "test_macro": 0.5588467223356597,
+  "sec": 31,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "weather_ny",
+  "cfg": {
+   "e_layers": 1,
+   "n_heads": 16,
+   "dropout": 0.1,
+   "learning_rate": 0.001
+  },
+  "gpu": 3,
+  "val_macro": 0.605,
+  "test_micro": 0.7026022304832714,
+  "test_macro": 0.6392680817524001,
+  "sec": 36,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "weather_ny",
+  "cfg": {
+   "e_layers": 1,
+   "n_heads": 16,
+   "dropout": 0.2,
+   "learning_rate": 0.0001
+  },
+  "gpu": 2,
+  "val_macro": 0.565,
+  "test_micro": 0.6160382368560807,
+  "test_macro": 0.5745523751189474,
+  "sec": 49,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "weather_ny",
+  "cfg": {
+   "e_layers": 2,
+   "n_heads": 4,
+   "dropout": 0.0,
+   "learning_rate": 0.0001
+  },
+  "gpu": 2,
+  "val_macro": 0.577,
+  "test_micro": 0.6749867233138609,
+  "test_macro": 0.612726436855774,
+  "sec": 39,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "weather_ny",
+  "cfg": {
+   "e_layers": 1,
+   "n_heads": 16,
+   "dropout": 0.2,
+   "learning_rate": 0.001
+  },
+  "gpu": 3,
+  "val_macro": 0.615,
+  "test_micro": 0.6983536909187467,
+  "test_macro": 0.6368350568951981,
+  "sec": 44,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "weather_ny",
+  "cfg": {
+   "e_layers": 2,
+   "n_heads": 4,
+   "dropout": 0.0,
+   "learning_rate": 0.001
+  },
+  "gpu": 3,
+  "val_macro": 0.589,
+  "test_micro": 0.7636749867233139,
+  "test_macro": 0.7131920335132697,
+  "sec": 53,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "weather_ny",
+  "cfg": {
+   "e_layers": 2,
+   "n_heads": 4,
+   "dropout": 0.1,
+   "learning_rate": 0.0001
+  },
+  "gpu": 2,
+  "val_macro": 0.579,
+  "test_micro": 0.6744556558682953,
+  "test_macro": 0.6082692230028172,
+  "sec": 39,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "weather_ny",
+  "cfg": {
+   "e_layers": 2,
+   "n_heads": 4,
+   "dropout": 0.2,
+   "learning_rate": 0.0001
+  },
+  "gpu": 2,
+  "val_macro": 0.592,
+  "test_micro": 0.676048858204992,
+  "test_macro": 0.6083236718270477,
+  "sec": 60,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "weather_ny",
+  "cfg": {
+   "e_layers": 2,
+   "n_heads": 4,
+   "dropout": 0.1,
+   "learning_rate": 0.001
+  },
+  "gpu": 3,
+  "val_macro": 0.598,
+  "test_micro": 0.7488050982474774,
+  "test_macro": 0.6752824501900015,
+  "sec": 65,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "weather_ny",
+  "cfg": {
+   "e_layers": 2,
+   "n_heads": 8,
+   "dropout": 0.0,
+   "learning_rate": 0.0001
+  },
+  "gpu": 2,
+  "val_macro": 0.576,
+  "test_micro": 0.6802973977695167,
+  "test_macro": 0.6186669088756123,
+  "sec": 39,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "weather_ny",
+  "cfg": {
+   "e_layers": 2,
+   "n_heads": 4,
+   "dropout": 0.2,
+   "learning_rate": 0.001
+  },
+  "gpu": 3,
+  "val_macro": 0.6,
+  "test_micro": 0.7477429633563463,
+  "test_macro": 0.6464199239017641,
+  "sec": 50,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "weather_ny",
+  "cfg": {
+   "e_layers": 2,
+   "n_heads": 8,
+   "dropout": 0.1,
+   "learning_rate": 0.001
+  },
+  "gpu": 3,
+  "val_macro": 0.591,
+  "test_micro": 0.718534253850239,
+  "test_macro": 0.6335015277043304,
+  "sec": 34,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "weather_ny",
+  "cfg": {
+   "e_layers": 2,
+   "n_heads": 8,
+   "dropout": 0.1,
+   "learning_rate": 0.0001
+  },
+  "gpu": 2,
+  "val_macro": 0.573,
+  "test_micro": 0.6797663303239512,
+  "test_macro": 0.608801079075344,
+  "sec": 39,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "weather_ny",
+  "cfg": {
+   "e_layers": 2,
+   "n_heads": 8,
+   "dropout": 0.0,
+   "learning_rate": 0.001
+  },
+  "gpu": 3,
+  "val_macro": 0.594,
+  "test_micro": 0.771109930961232,
+  "test_macro": 0.7203868409311331,
+  "sec": 55,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "weather_ny",
+  "cfg": {
+   "e_layers": 2,
+   "n_heads": 8,
+   "dropout": 0.2,
+   "learning_rate": 0.0001
+  },
+  "gpu": 2,
+  "val_macro": 0.59,
+  "test_micro": 0.67870419543282,
+  "test_macro": 0.6104908291150168,
+  "sec": 49,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "weather_ny",
+  "cfg": {
+   "e_layers": 2,
+   "n_heads": 8,
+   "dropout": 0.2,
+   "learning_rate": 0.001
+  },
+  "gpu": 3,
+  "val_macro": 0.588,
+  "test_micro": 0.7498672331386086,
+  "test_macro": 0.6454137105914949,
+  "sec": 44,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "weather_ny",
+  "cfg": {
+   "e_layers": 2,
+   "n_heads": 16,
+   "dropout": 0.0,
+   "learning_rate": 0.0001
+  },
+  "gpu": 2,
+  "val_macro": 0.577,
+  "test_micro": 0.6792352628783855,
+  "test_macro": 0.6248410080485552,
+  "sec": 50,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "weather_ny",
+  "cfg": {
+   "e_layers": 2,
+   "n_heads": 16,
+   "dropout": 0.0,
+   "learning_rate": 0.001
+  },
+  "gpu": 3,
+  "val_macro": 0.605,
+  "test_micro": 0.758364312267658,
+  "test_macro": 0.7139468302658487,
+  "sec": 53,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "weather_ny",
+  "cfg": {
+   "e_layers": 2,
+   "n_heads": 16,
+   "dropout": 0.1,
+   "learning_rate": 0.0001
+  },
+  "gpu": 2,
+  "val_macro": 0.577,
+  "test_micro": 0.6792352628783855,
+  "test_macro": 0.6105038068388854,
+  "sec": 48,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "weather_ny",
+  "cfg": {
+   "e_layers": 2,
+   "n_heads": 16,
+   "dropout": 0.2,
+   "learning_rate": 0.0001
+  },
+  "gpu": 2,
+  "val_macro": 0.588,
+  "test_micro": 0.6765799256505576,
+  "test_macro": 0.6091743306869245,
+  "sec": 44,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "weather_ny",
+  "cfg": {
+   "e_layers": 2,
+   "n_heads": 16,
+   "dropout": 0.1,
+   "learning_rate": 0.001
+  },
+  "gpu": 3,
+  "val_macro": 0.607,
+  "test_micro": 0.7397769516728625,
+  "test_macro": 0.66935648020733,
+  "sec": 58,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "weather_sf",
+  "cfg": {
+   "e_layers": 1,
+   "n_heads": 4,
+   "dropout": 0.0,
+   "learning_rate": 0.0001
+  },
+  "gpu": 2,
+  "val_macro": 0.591,
+  "test_micro": 0.6479022835900159,
+  "test_macro": 0.594019107714791,
+  "sec": 35,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "weather_ny",
+  "cfg": {
+   "e_layers": 2,
+   "n_heads": 16,
+   "dropout": 0.2,
+   "learning_rate": 0.001
+  },
+  "gpu": 3,
+  "val_macro": 0.597,
+  "test_micro": 0.7211895910780669,
+  "test_macro": 0.6481344711294614,
+  "sec": 43,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "weather_sf",
+  "cfg": {
+   "e_layers": 1,
+   "n_heads": 4,
+   "dropout": 0.0,
+   "learning_rate": 0.001
+  },
+  "gpu": 3,
+  "val_macro": 0.632,
+  "test_micro": 0.6919808815719597,
+  "test_macro": 0.6192458408289057,
+  "sec": 25,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "weather_sf",
+  "cfg": {
+   "e_layers": 1,
+   "n_heads": 4,
+   "dropout": 0.1,
+   "learning_rate": 0.001
+  },
+  "gpu": 3,
+  "val_macro": 0.587,
+  "test_micro": 0.6255974508762613,
+  "test_macro": 0.5848387644565952,
+  "sec": 27,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "weather_sf",
+  "cfg": {
+   "e_layers": 1,
+   "n_heads": 4,
+   "dropout": 0.1,
+   "learning_rate": 0.0001
+  },
+  "gpu": 2,
+  "val_macro": 0.571,
+  "test_micro": 0.6022304832713755,
+  "test_macro": 0.5605359941095988,
+  "sec": 40,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "weather_sf",
+  "cfg": {
+   "e_layers": 1,
+   "n_heads": 4,
+   "dropout": 0.2,
+   "learning_rate": 0.001
+  },
+  "gpu": 3,
+  "val_macro": 0.62,
+  "test_micro": 0.6797663303239512,
+  "test_macro": 0.6126113216739627,
+  "sec": 33,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "weather_sf",
+  "cfg": {
+   "e_layers": 1,
+   "n_heads": 8,
+   "dropout": 0.0,
+   "learning_rate": 0.001
+  },
+  "gpu": 3,
+  "val_macro": 0.637,
+  "test_micro": 0.6882634094530006,
+  "test_macro": 0.6196010653583367,
+  "sec": 26,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "weather_sf",
+  "cfg": {
+   "e_layers": 1,
+   "n_heads": 4,
+   "dropout": 0.2,
+   "learning_rate": 0.0001
+  },
+  "gpu": 2,
+  "val_macro": 0.556,
+  "test_micro": 0.5799256505576208,
+  "test_macro": 0.5419780591495806,
+  "sec": 57,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "weather_sf",
+  "cfg": {
+   "e_layers": 1,
+   "n_heads": 8,
+   "dropout": 0.0,
+   "learning_rate": 0.0001
+  },
+  "gpu": 2,
+  "val_macro": 0.586,
+  "test_micro": 0.648964418481147,
+  "test_macro": 0.5937854208135434,
+  "sec": 45,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "weather_sf",
+  "cfg": {
+   "e_layers": 1,
+   "n_heads": 8,
+   "dropout": 0.1,
+   "learning_rate": 0.001
+  },
+  "gpu": 3,
+  "val_macro": 0.587,
+  "test_micro": 0.682421667551779,
+  "test_macro": 0.6242304632437743,
+  "sec": 33,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "weather_sf",
+  "cfg": {
+   "e_layers": 1,
+   "n_heads": 8,
+   "dropout": 0.1,
+   "learning_rate": 0.0001
+  },
+  "gpu": 2,
+  "val_macro": 0.581,
+  "test_micro": 0.6128518321826872,
+  "test_macro": 0.5691020058769076,
+  "sec": 51,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "weather_sf",
+  "cfg": {
+   "e_layers": 1,
+   "n_heads": 8,
+   "dropout": 0.2,
+   "learning_rate": 0.001
+  },
+  "gpu": 3,
+  "val_macro": 0.595,
+  "test_micro": 0.6548061603823686,
+  "test_macro": 0.6111392813662022,
+  "sec": 32,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "weather_sf",
+  "cfg": {
+   "e_layers": 1,
+   "n_heads": 16,
+   "dropout": 0.0,
+   "learning_rate": 0.001
+  },
+  "gpu": 3,
+  "val_macro": 0.632,
+  "test_micro": 0.6887944768985661,
+  "test_macro": 0.6204579663246297,
+  "sec": 25,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "weather_sf",
+  "cfg": {
+   "e_layers": 1,
+   "n_heads": 8,
+   "dropout": 0.2,
+   "learning_rate": 0.0001
+  },
+  "gpu": 2,
+  "val_macro": 0.55,
+  "test_micro": 0.5730217737652682,
+  "test_macro": 0.5376245171410351,
+  "sec": 61,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "weather_sf",
+  "cfg": {
+   "e_layers": 1,
+   "n_heads": 16,
+   "dropout": 0.0,
+   "learning_rate": 0.0001
+  },
+  "gpu": 2,
+  "val_macro": 0.582,
+  "test_micro": 0.623473181093999,
+  "test_macro": 0.5732455816489913,
+  "sec": 34,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "weather_sf",
+  "cfg": {
+   "e_layers": 1,
+   "n_heads": 16,
+   "dropout": 0.1,
+   "learning_rate": 0.0001
+  },
+  "gpu": 2,
+  "val_macro": 0.577,
+  "test_micro": 0.6070100902814658,
+  "test_macro": 0.5647086019893037,
+  "sec": 42,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "weather_sf",
+  "cfg": {
+   "e_layers": 1,
+   "n_heads": 16,
+   "dropout": 0.1,
+   "learning_rate": 0.001
+  },
+  "gpu": 3,
+  "val_macro": 0.601,
+  "test_micro": 0.7190653212958046,
+  "test_macro": 0.6377825656130398,
+  "sec": 34,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "weather_sf",
+  "cfg": {
+   "e_layers": 1,
+   "n_heads": 16,
+   "dropout": 0.2,
+   "learning_rate": 0.001
+  },
+  "gpu": 3,
+  "val_macro": 0.61,
+  "test_micro": 0.6723313860860329,
+  "test_macro": 0.6147464689019649,
+  "sec": 34,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "weather_sf",
+  "cfg": {
+   "e_layers": 1,
+   "n_heads": 16,
+   "dropout": 0.2,
+   "learning_rate": 0.0001
+  },
+  "gpu": 2,
+  "val_macro": 0.557,
+  "test_micro": 0.5793945831120553,
+  "test_macro": 0.5418559042113955,
+  "sec": 59,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "weather_sf",
+  "cfg": {
+   "e_layers": 2,
+   "n_heads": 4,
+   "dropout": 0.0,
+   "learning_rate": 0.0001
+  },
+  "gpu": 2,
+  "val_macro": 0.598,
+  "test_micro": 0.6829527349973447,
+  "test_macro": 0.6216412974883251,
+  "sec": 38,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "weather_sf",
+  "cfg": {
+   "e_layers": 2,
+   "n_heads": 4,
+   "dropout": 0.0,
+   "learning_rate": 0.001
+  },
+  "gpu": 3,
+  "val_macro": 0.588,
+  "test_micro": 0.7530536378120021,
+  "test_macro": 0.6751768155942729,
+  "sec": 38,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "weather_sf",
+  "cfg": {
+   "e_layers": 2,
+   "n_heads": 4,
+   "dropout": 0.1,
+   "learning_rate": 0.0001
+  },
+  "gpu": 2,
+  "val_macro": 0.594,
+  "test_micro": 0.6563993627190653,
+  "test_macro": 0.6013007213757683,
+  "sec": 49,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "weather_sf",
+  "cfg": {
+   "e_layers": 2,
+   "n_heads": 4,
+   "dropout": 0.1,
+   "learning_rate": 0.001
+  },
+  "gpu": 3,
+  "val_macro": 0.593,
+  "test_micro": 0.6994158258098778,
+  "test_macro": 0.6065009540462787,
+  "sec": 28,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "weather_sf",
+  "cfg": {
+   "e_layers": 2,
+   "n_heads": 4,
+   "dropout": 0.2,
+   "learning_rate": 0.001
+  },
+  "gpu": 3,
+  "val_macro": 0.608,
+  "test_micro": 0.7126925119490175,
+  "test_macro": 0.6047606281133205,
+  "sec": 25,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "weather_sf",
+  "cfg": {
+   "e_layers": 2,
+   "n_heads": 4,
+   "dropout": 0.2,
+   "learning_rate": 0.0001
+  },
+  "gpu": 2,
+  "val_macro": 0.593,
+  "test_micro": 0.6526818906001062,
+  "test_macro": 0.5937848001055548,
+  "sec": 42,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "weather_sf",
+  "cfg": {
+   "e_layers": 2,
+   "n_heads": 8,
+   "dropout": 0.1,
+   "learning_rate": 0.001
+  },
+  "gpu": 3,
+  "val_macro": 0.621,
+  "test_micro": 0.6707381837493361,
+  "test_macro": 0.6040038532508412,
+  "sec": 27,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "weather_sf",
+  "cfg": {
+   "e_layers": 2,
+   "n_heads": 8,
+   "dropout": 0.0,
+   "learning_rate": 0.001
+  },
+  "gpu": 3,
+  "val_macro": 0.573,
+  "test_micro": 0.7498672331386086,
+  "test_macro": 0.6940981411546964,
+  "sec": 44,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "weather_sf",
+  "cfg": {
+   "e_layers": 2,
+   "n_heads": 8,
+   "dropout": 0.1,
+   "learning_rate": 0.0001
+  },
+  "gpu": 2,
+  "val_macro": 0.591,
+  "test_micro": 0.651619755708975,
+  "test_macro": 0.5951970846933292,
+  "sec": 40,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "weather_sf",
+  "cfg": {
+   "e_layers": 2,
+   "n_heads": 8,
+   "dropout": 0.0,
+   "learning_rate": 0.0001
+  },
+  "gpu": 2,
+  "val_macro": 0.595,
+  "test_micro": 0.6680828465215082,
+  "test_macro": 0.6141485793946571,
+  "sec": 58,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "weather_sf",
+  "cfg": {
+   "e_layers": 2,
+   "n_heads": 8,
+   "dropout": 0.2,
+   "learning_rate": 0.001
+  },
+  "gpu": 3,
+  "val_macro": 0.62,
+  "test_micro": 0.6691449814126395,
+  "test_macro": 0.6051633640456057,
+  "sec": 28,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "weather_sf",
+  "cfg": {
+   "e_layers": 2,
+   "n_heads": 16,
+   "dropout": 0.0,
+   "learning_rate": 0.0001
+  },
+  "gpu": 2,
+  "val_macro": 0.6,
+  "test_micro": 0.6866702071163038,
+  "test_macro": 0.6247311232293316,
+  "sec": 39,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "weather_sf",
+  "cfg": {
+   "e_layers": 2,
+   "n_heads": 8,
+   "dropout": 0.2,
+   "learning_rate": 0.0001
+  },
+  "gpu": 2,
+  "val_macro": 0.591,
+  "test_micro": 0.6526818906001062,
+  "test_macro": 0.5941681957670284,
+  "sec": 51,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "weather_sf",
+  "cfg": {
+   "e_layers": 2,
+   "n_heads": 16,
+   "dropout": 0.0,
+   "learning_rate": 0.001
+  },
+  "gpu": 3,
+  "val_macro": 0.579,
+  "test_micro": 0.7753584705257568,
+  "test_macro": 0.716149772868929,
+  "sec": 47,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "weather_sf",
+  "cfg": {
+   "e_layers": 2,
+   "n_heads": 16,
+   "dropout": 0.1,
+   "learning_rate": 0.001
+  },
+  "gpu": 3,
+  "val_macro": 0.605,
+  "test_micro": 0.6903876792352629,
+  "test_macro": 0.6087832566964199,
+  "sec": 28,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "weather_sf",
+  "cfg": {
+   "e_layers": 2,
+   "n_heads": 16,
+   "dropout": 0.1,
+   "learning_rate": 0.0001
+  },
+  "gpu": 2,
+  "val_macro": 0.593,
+  "test_micro": 0.6585236325013276,
+  "test_macro": 0.6011819257134556,
+  "sec": 49,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "weather_sf",
+  "cfg": {
+   "e_layers": 2,
+   "n_heads": 16,
+   "dropout": 0.2,
+   "learning_rate": 0.001
+  },
+  "gpu": 3,
+  "val_macro": 0.608,
+  "test_micro": 0.6633032395114179,
+  "test_macro": 0.5988048381806548,
+  "sec": 28,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "weather_sf",
+  "cfg": {
+   "e_layers": 2,
+   "n_heads": 16,
+   "dropout": 0.2,
+   "learning_rate": 0.0001
+  },
+  "gpu": 2,
+  "val_macro": 0.597,
+  "test_micro": 0.6479022835900159,
+  "test_macro": 0.5921863224874097,
+  "sec": 41,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "weather_hs",
+  "cfg": {
+   "e_layers": 1,
+   "n_heads": 4,
+   "dropout": 0.0,
+   "learning_rate": 0.001
+  },
+  "gpu": 3,
+  "val_macro": 0.613,
+  "test_micro": 0.7068507700477961,
+  "test_macro": 0.6615347343248122,
+  "sec": 28,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "weather_hs",
+  "cfg": {
+   "e_layers": 1,
+   "n_heads": 4,
+   "dropout": 0.0,
+   "learning_rate": 0.0001
+  },
+  "gpu": 2,
+  "val_macro": 0.607,
+  "test_micro": 0.6866702071163038,
+  "test_macro": 0.6435387324395572,
+  "sec": 41,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "weather_hs",
+  "cfg": {
+   "e_layers": 1,
+   "n_heads": 4,
+   "dropout": 0.1,
+   "learning_rate": 0.001
+  },
+  "gpu": 3,
+  "val_macro": 0.617,
+  "test_micro": 0.667020711630377,
+  "test_macro": 0.6386056527508452,
+  "sec": 24,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "weather_hs",
+  "cfg": {
+   "e_layers": 1,
+   "n_heads": 4,
+   "dropout": 0.1,
+   "learning_rate": 0.0001
+  },
+  "gpu": 2,
+  "val_macro": 0.602,
+  "test_micro": 0.667020711630377,
+  "test_macro": 0.6304983217144333,
+  "sec": 51,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "weather_hs",
+  "cfg": {
+   "e_layers": 1,
+   "n_heads": 4,
+   "dropout": 0.2,
+   "learning_rate": 0.001
+  },
+  "gpu": 3,
+  "val_macro": 0.612,
+  "test_micro": 0.7020711630377058,
+  "test_macro": 0.6603431605976549,
+  "sec": 28,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "weather_hs",
+  "cfg": {
+   "e_layers": 1,
+   "n_heads": 8,
+   "dropout": 0.0,
+   "learning_rate": 0.0001
+  },
+  "gpu": 2,
+  "val_macro": 0.599,
+  "test_micro": 0.685077004779607,
+  "test_macro": 0.6427716557600731,
+  "sec": 39,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "weather_hs",
+  "cfg": {
+   "e_layers": 1,
+   "n_heads": 8,
+   "dropout": 0.0,
+   "learning_rate": 0.001
+  },
+  "gpu": 3,
+  "val_macro": 0.618,
+  "test_micro": 0.7052575677110993,
+  "test_macro": 0.663402680951677,
+  "sec": 28,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "weather_hs",
+  "cfg": {
+   "e_layers": 1,
+   "n_heads": 4,
+   "dropout": 0.2,
+   "learning_rate": 0.0001
+  },
+  "gpu": 2,
+  "val_macro": 0.603,
+  "test_micro": 0.636218799787573,
+  "test_macro": 0.6104843431831476,
+  "sec": 61,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "weather_hs",
+  "cfg": {
+   "e_layers": 1,
+   "n_heads": 8,
+   "dropout": 0.1,
+   "learning_rate": 0.001
+  },
+  "gpu": 3,
+  "val_macro": 0.603,
+  "test_micro": 0.6723313860860329,
+  "test_macro": 0.6385057716248075,
+  "sec": 27,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "weather_hs",
+  "cfg": {
+   "e_layers": 1,
+   "n_heads": 8,
+   "dropout": 0.1,
+   "learning_rate": 0.0001
+  },
+  "gpu": 2,
+  "val_macro": 0.602,
+  "test_micro": 0.6680828465215082,
+  "test_macro": 0.6308520632291799,
+  "sec": 48,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "weather_hs",
+  "cfg": {
+   "e_layers": 1,
+   "n_heads": 8,
+   "dropout": 0.2,
+   "learning_rate": 0.001
+  },
+  "gpu": 3,
+  "val_macro": 0.617,
+  "test_micro": 0.6988847583643123,
+  "test_macro": 0.6572905221334469,
+  "sec": 31,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "weather_hs",
+  "cfg": {
+   "e_layers": 1,
+   "n_heads": 8,
+   "dropout": 0.2,
+   "learning_rate": 0.0001
+  },
+  "gpu": 2,
+  "val_macro": 0.605,
+  "test_micro": 0.633563462559745,
+  "test_macro": 0.6082108455097448,
+  "sec": 35,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "weather_hs",
+  "cfg": {
+   "e_layers": 1,
+   "n_heads": 16,
+   "dropout": 0.0,
+   "learning_rate": 0.0001
+  },
+  "gpu": 2,
+  "val_macro": 0.599,
+  "test_micro": 0.6771109930961232,
+  "test_macro": 0.6377067690111036,
+  "sec": 38,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "weather_hs",
+  "cfg": {
+   "e_layers": 1,
+   "n_heads": 16,
+   "dropout": 0.0,
+   "learning_rate": 0.001
+  },
+  "gpu": 3,
+  "val_macro": 0.618,
+  "test_micro": 0.7026022304832714,
+  "test_macro": 0.6602248326386257,
+  "sec": 29,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "weather_hs",
+  "cfg": {
+   "e_layers": 1,
+   "n_heads": 16,
+   "dropout": 0.1,
+   "learning_rate": 0.001
+  },
+  "gpu": 3,
+  "val_macro": 0.609,
+  "test_micro": 0.6659585767392459,
+  "test_macro": 0.6383809184471965,
+  "sec": 25,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "weather_hs",
+  "cfg": {
+   "e_layers": 1,
+   "n_heads": 16,
+   "dropout": 0.1,
+   "learning_rate": 0.0001
+  },
+  "gpu": 2,
+  "val_macro": 0.598,
+  "test_micro": 0.6611789697291556,
+  "test_macro": 0.6255280337941629,
+  "sec": 41,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "weather_hs",
+  "cfg": {
+   "e_layers": 1,
+   "n_heads": 16,
+   "dropout": 0.2,
+   "learning_rate": 0.001
+  },
+  "gpu": 3,
+  "val_macro": 0.603,
+  "test_micro": 0.6834838024429103,
+  "test_macro": 0.6486368361072498,
+  "sec": 34,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "weather_hs",
+  "cfg": {
+   "e_layers": 2,
+   "n_heads": 4,
+   "dropout": 0.0,
+   "learning_rate": 0.001
+  },
+  "gpu": 3,
+  "val_macro": 0.615,
+  "test_micro": 0.6903876792352629,
+  "test_macro": 0.6377131278329728,
+  "sec": 29,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "weather_hs",
+  "cfg": {
+   "e_layers": 2,
+   "n_heads": 4,
+   "dropout": 0.0,
+   "learning_rate": 0.0001
+  },
+  "gpu": 2,
+  "val_macro": 0.604,
+  "test_micro": 0.6882634094530006,
+  "test_macro": 0.6525101756656113,
+  "sec": 42,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "weather_hs",
+  "cfg": {
+   "e_layers": 1,
+   "n_heads": 16,
+   "dropout": 0.2,
+   "learning_rate": 0.0001
+  },
+  "gpu": 2,
+  "val_macro": 0.606,
+  "test_micro": 0.6415294742432289,
+  "test_macro": 0.6133911258127067,
+  "sec": 57,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "weather_hs",
+  "cfg": {
+   "e_layers": 2,
+   "n_heads": 4,
+   "dropout": 0.1,
+   "learning_rate": 0.0001
+  },
+  "gpu": 2,
+  "val_macro": 0.612,
+  "test_micro": 0.7010090281465746,
+  "test_macro": 0.6355548603674603,
+  "sec": 35,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "weather_hs",
+  "cfg": {
+   "e_layers": 2,
+   "n_heads": 4,
+   "dropout": 0.1,
+   "learning_rate": 0.001
+  },
+  "gpu": 3,
+  "val_macro": 0.596,
+  "test_micro": 0.7318109399893786,
+  "test_macro": 0.633292108751142,
+  "sec": 27,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "weather_hs",
+  "cfg": {
+   "e_layers": 2,
+   "n_heads": 4,
+   "dropout": 0.2,
+   "learning_rate": 0.0001
+  },
+  "gpu": 2,
+  "val_macro": 0.619,
+  "test_micro": 0.7052575677110993,
+  "test_macro": 0.6328974393290977,
+  "sec": 32,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "weather_hs",
+  "cfg": {
+   "e_layers": 2,
+   "n_heads": 4,
+   "dropout": 0.2,
+   "learning_rate": 0.001
+  },
+  "gpu": 3,
+  "val_macro": 0.593,
+  "test_micro": 0.6802973977695167,
+  "test_macro": 0.6350540223816208,
+  "sec": 26,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "weather_hs",
+  "cfg": {
+   "e_layers": 2,
+   "n_heads": 8,
+   "dropout": 0.0,
+   "learning_rate": 0.001
+  },
+  "gpu": 3,
+  "val_macro": 0.605,
+  "test_micro": 0.6903876792352629,
+  "test_macro": 0.6352696881753833,
+  "sec": 28,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "weather_hs",
+  "cfg": {
+   "e_layers": 2,
+   "n_heads": 8,
+   "dropout": 0.0,
+   "learning_rate": 0.0001
+  },
+  "gpu": 2,
+  "val_macro": 0.615,
+  "test_micro": 0.6925119490175252,
+  "test_macro": 0.6592888315267919,
+  "sec": 38,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "weather_hs",
+  "cfg": {
+   "e_layers": 2,
+   "n_heads": 8,
+   "dropout": 0.1,
+   "learning_rate": 0.001
+  },
+  "gpu": 3,
+  "val_macro": 0.598,
+  "test_micro": 0.7344662772172066,
+  "test_macro": 0.6327441636942933,
+  "sec": 28,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "weather_hs",
+  "cfg": {
+   "e_layers": 2,
+   "n_heads": 8,
+   "dropout": 0.1,
+   "learning_rate": 0.0001
+  },
+  "gpu": 2,
+  "val_macro": 0.614,
+  "test_micro": 0.6978226234731811,
+  "test_macro": 0.6320741272626064,
+  "sec": 33,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "weather_hs",
+  "cfg": {
+   "e_layers": 2,
+   "n_heads": 8,
+   "dropout": 0.2,
+   "learning_rate": 0.001
+  },
+  "gpu": 3,
+  "val_macro": 0.616,
+  "test_micro": 0.7105682421667552,
+  "test_macro": 0.6475929689949393,
+  "sec": 28,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "weather_hs",
+  "cfg": {
+   "e_layers": 2,
+   "n_heads": 8,
+   "dropout": 0.2,
+   "learning_rate": 0.0001
+  },
+  "gpu": 2,
+  "val_macro": 0.612,
+  "test_micro": 0.7031332979288369,
+  "test_macro": 0.6361352657004831,
+  "sec": 34,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "weather_hs",
+  "cfg": {
+   "e_layers": 2,
+   "n_heads": 16,
+   "dropout": 0.0,
+   "learning_rate": 0.001
+  },
+  "gpu": 3,
+  "val_macro": 0.606,
+  "test_micro": 0.6887944768985661,
+  "test_macro": 0.6342792559890758,
+  "sec": 27,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "weather_hs",
+  "cfg": {
+   "e_layers": 2,
+   "n_heads": 16,
+   "dropout": 0.0,
+   "learning_rate": 0.0001
+  },
+  "gpu": 2,
+  "val_macro": 0.618,
+  "test_micro": 0.6946362187997875,
+  "test_macro": 0.6590943081367433,
+  "sec": 43,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "weather_hs",
+  "cfg": {
+   "e_layers": 2,
+   "n_heads": 16,
+   "dropout": 0.1,
+   "learning_rate": 0.001
+  },
+  "gpu": 3,
+  "val_macro": 0.608,
+  "test_micro": 0.727562400424854,
+  "test_macro": 0.6345403223152033,
+  "sec": 28,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "weather_hs",
+  "cfg": {
+   "e_layers": 2,
+   "n_heads": 16,
+   "dropout": 0.1,
+   "learning_rate": 0.0001
+  },
+  "gpu": 2,
+  "val_macro": 0.61,
+  "test_micro": 0.694105151354222,
+  "test_macro": 0.6301548114301303,
+  "sec": 34,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "weather_hs",
+  "cfg": {
+   "e_layers": 2,
+   "n_heads": 16,
+   "dropout": 0.2,
+   "learning_rate": 0.0001
+  },
+  "gpu": 2,
+  "val_macro": 0.615,
+  "test_micro": 0.7047265002655337,
+  "test_macro": 0.633735509619206,
+  "sec": 33,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "weather_hs",
+  "cfg": {
+   "e_layers": 2,
+   "n_heads": 16,
+   "dropout": 0.2,
+   "learning_rate": 0.001
+  },
+  "gpu": 3,
+  "val_macro": 0.613,
+  "test_micro": 0.6994158258098778,
+  "test_macro": 0.6439859168103046,
+  "sec": 28,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "finance_sp500",
+  "cfg": {
+   "e_layers": 1,
+   "n_heads": 4,
+   "dropout": 0.0,
+   "learning_rate": 0.0001
+  },
+  "gpu": 2,
+  "val_macro": 0.372,
+  "test_micro": 0.5492730210016155,
+  "test_macro": 0.4350325081615,
+  "sec": 27,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "finance_sp500",
+  "cfg": {
+   "e_layers": 1,
+   "n_heads": 4,
+   "dropout": 0.1,
+   "learning_rate": 0.0001
+  },
+  "gpu": 2,
+  "val_macro": 0.383,
+  "test_micro": 0.505654281098546,
+  "test_macro": 0.4112095472406514,
+  "sec": 25,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "finance_sp500",
+  "cfg": {
+   "e_layers": 1,
+   "n_heads": 4,
+   "dropout": 0.1,
+   "learning_rate": 0.001
+  },
+  "gpu": 3,
+  "val_macro": 0.327,
+  "test_micro": 0.6017770597738288,
+  "test_macro": 0.4971051312666219,
+  "sec": 28,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "finance_sp500",
+  "cfg": {
+   "e_layers": 1,
+   "n_heads": 4,
+   "dropout": 0.0,
+   "learning_rate": 0.001
+  },
+  "gpu": 3,
+  "val_macro": 0.35,
+  "test_micro": 0.6615508885298869,
+  "test_macro": 0.5776436011422651,
+  "sec": 44,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "finance_sp500",
+  "cfg": {
+   "e_layers": 1,
+   "n_heads": 4,
+   "dropout": 0.2,
+   "learning_rate": 0.0001
+  },
+  "gpu": 2,
+  "val_macro": 0.372,
+  "test_micro": 0.4693053311793215,
+  "test_macro": 0.3903944374846932,
+  "sec": 25,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "finance_sp500",
+  "cfg": {
+   "e_layers": 1,
+   "n_heads": 4,
+   "dropout": 0.2,
+   "learning_rate": 0.001
+  },
+  "gpu": 3,
+  "val_macro": 0.336,
+  "test_micro": 0.5621970920840065,
+  "test_macro": 0.4580165222144967,
+  "sec": 25,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "finance_sp500",
+  "cfg": {
+   "e_layers": 1,
+   "n_heads": 8,
+   "dropout": 0.0,
+   "learning_rate": 0.0001
+  },
+  "gpu": 2,
+  "val_macro": 0.376,
+  "test_micro": 0.5210016155088854,
+  "test_macro": 0.41673903613612984,
+  "sec": 24,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "finance_sp500",
+  "cfg": {
+   "e_layers": 1,
+   "n_heads": 8,
+   "dropout": 0.1,
+   "learning_rate": 0.0001
+  },
+  "gpu": 2,
+  "val_macro": 0.382,
+  "test_micro": 0.5032310177705978,
+  "test_macro": 0.40958152510485085,
+  "sec": 25,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "finance_sp500",
+  "cfg": {
+   "e_layers": 1,
+   "n_heads": 8,
+   "dropout": 0.1,
+   "learning_rate": 0.001
+  },
+  "gpu": 3,
+  "val_macro": 0.334,
+  "test_micro": 0.5961227786752827,
+  "test_macro": 0.49836376337108373,
+  "sec": 29,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "finance_sp500",
+  "cfg": {
+   "e_layers": 1,
+   "n_heads": 8,
+   "dropout": 0.2,
+   "learning_rate": 0.0001
+  },
+  "gpu": 2,
+  "val_macro": 0.366,
+  "test_micro": 0.4693053311793215,
+  "test_macro": 0.39213280613533413,
+  "sec": 25,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "finance_sp500",
+  "cfg": {
+   "e_layers": 1,
+   "n_heads": 8,
+   "dropout": 0.0,
+   "learning_rate": 0.001
+  },
+  "gpu": 3,
+  "val_macro": 0.363,
+  "test_micro": 0.6688206785137318,
+  "test_macro": 0.5856978590260762,
+  "sec": 47,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "finance_sp500",
+  "cfg": {
+   "e_layers": 1,
+   "n_heads": 8,
+   "dropout": 0.2,
+   "learning_rate": 0.001
+  },
+  "gpu": 3,
+  "val_macro": 0.326,
+  "test_micro": 0.5573505654281099,
+  "test_macro": 0.45994392703441145,
+  "sec": 25,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "finance_sp500",
+  "cfg": {
+   "e_layers": 1,
+   "n_heads": 16,
+   "dropout": 0.0,
+   "learning_rate": 0.0001
+  },
+  "gpu": 2,
+  "val_macro": 0.367,
+  "test_micro": 0.5484652665589661,
+  "test_macro": 0.4336822970192697,
+  "sec": 28,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "finance_sp500",
+  "cfg": {
+   "e_layers": 1,
+   "n_heads": 16,
+   "dropout": 0.1,
+   "learning_rate": 0.0001
+  },
+  "gpu": 2,
+  "val_macro": 0.382,
+  "test_micro": 0.5024232633279483,
+  "test_macro": 0.4091827178944818,
+  "sec": 26,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "finance_sp500",
+  "cfg": {
+   "e_layers": 1,
+   "n_heads": 16,
+   "dropout": 0.1,
+   "learning_rate": 0.001
+  },
+  "gpu": 3,
+  "val_macro": 0.341,
+  "test_micro": 0.5961227786752827,
+  "test_macro": 0.4978707601943813,
+  "sec": 30,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "finance_sp500",
+  "cfg": {
+   "e_layers": 1,
+   "n_heads": 16,
+   "dropout": 0.2,
+   "learning_rate": 0.0001
+  },
+  "gpu": 2,
+  "val_macro": 0.364,
+  "test_micro": 0.4668820678513732,
+  "test_macro": 0.38894553685590555,
+  "sec": 25,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "finance_sp500",
+  "cfg": {
+   "e_layers": 1,
+   "n_heads": 16,
+   "dropout": 0.0,
+   "learning_rate": 0.001
+  },
+  "gpu": 3,
+  "val_macro": 0.382,
+  "test_micro": 0.6777059773828756,
+  "test_macro": 0.5929740983519864,
+  "sec": 50,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "finance_sp500",
+  "cfg": {
+   "e_layers": 1,
+   "n_heads": 16,
+   "dropout": 0.2,
+   "learning_rate": 0.001
+  },
+  "gpu": 3,
+  "val_macro": 0.354,
+  "test_micro": 0.5638126009693053,
+  "test_macro": 0.465997106981118,
+  "sec": 24,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "finance_sp500",
+  "cfg": {
+   "e_layers": 2,
+   "n_heads": 4,
+   "dropout": 0.0,
+   "learning_rate": 0.0001
+  },
+  "gpu": 2,
+  "val_macro": 0.382,
+  "test_micro": 0.5823909531502424,
+  "test_macro": 0.4624570619324815,
+  "sec": 34,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "finance_sp500",
+  "cfg": {
+   "e_layers": 2,
+   "n_heads": 4,
+   "dropout": 0.0,
+   "learning_rate": 0.001
+  },
+  "gpu": 3,
+  "val_macro": 0.346,
+  "test_micro": 0.5936995153473344,
+  "test_macro": 0.5051305076609698,
+  "sec": 31,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "finance_sp500",
+  "cfg": {
+   "e_layers": 2,
+   "n_heads": 4,
+   "dropout": 0.1,
+   "learning_rate": 0.0001
+  },
+  "gpu": 2,
+  "val_macro": 0.394,
+  "test_micro": 0.5508885298869144,
+  "test_macro": 0.4351155001614923,
+  "sec": 30,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "finance_sp500",
+  "cfg": {
+   "e_layers": 2,
+   "n_heads": 4,
+   "dropout": 0.1,
+   "learning_rate": 0.001
+  },
+  "gpu": 3,
+  "val_macro": 0.336,
+  "test_micro": 0.6001615508885298,
+  "test_macro": 0.5049128852105191,
+  "sec": 37,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "finance_sp500",
+  "cfg": {
+   "e_layers": 2,
+   "n_heads": 4,
+   "dropout": 0.2,
+   "learning_rate": 0.0001
+  },
+  "gpu": 2,
+  "val_macro": 0.36,
+  "test_micro": 0.5411954765751211,
+  "test_macro": 0.4222595745912254,
+  "sec": 37,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "finance_sp500",
+  "cfg": {
+   "e_layers": 2,
+   "n_heads": 4,
+   "dropout": 0.2,
+   "learning_rate": 0.001
+  },
+  "gpu": 3,
+  "val_macro": 0.323,
+  "test_micro": 0.6042003231017771,
+  "test_macro": 0.48132508900597165,
+  "sec": 32,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "finance_sp500",
+  "cfg": {
+   "e_layers": 2,
+   "n_heads": 8,
+   "dropout": 0.0,
+   "learning_rate": 0.001
+  },
+  "gpu": 3,
+  "val_macro": 0.348,
+  "test_micro": 0.6033925686591276,
+  "test_macro": 0.5109609920830701,
+  "sec": 29,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "finance_sp500",
+  "cfg": {
+   "e_layers": 2,
+   "n_heads": 8,
+   "dropout": 0.0,
+   "learning_rate": 0.0001
+  },
+  "gpu": 2,
+  "val_macro": 0.378,
+  "test_micro": 0.6042003231017771,
+  "test_macro": 0.48001978436371356,
+  "sec": 39,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "finance_sp500",
+  "cfg": {
+   "e_layers": 2,
+   "n_heads": 8,
+   "dropout": 0.1,
+   "learning_rate": 0.0001
+  },
+  "gpu": 2,
+  "val_macro": 0.375,
+  "test_micro": 0.5492730210016155,
+  "test_macro": 0.4312344296235957,
+  "sec": 31,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "finance_sp500",
+  "cfg": {
+   "e_layers": 2,
+   "n_heads": 8,
+   "dropout": 0.1,
+   "learning_rate": 0.001
+  },
+  "gpu": 3,
+  "val_macro": 0.346,
+  "test_micro": 0.6405492730210016,
+  "test_macro": 0.5381867117252782,
+  "sec": 36,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "finance_sp500",
+  "cfg": {
+   "e_layers": 2,
+   "n_heads": 8,
+   "dropout": 0.2,
+   "learning_rate": 0.001
+  },
+  "gpu": 3,
+  "val_macro": 0.347,
+  "test_micro": 0.622778675282714,
+  "test_macro": 0.503297049017471,
+  "sec": 38,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "finance_sp500",
+  "cfg": {
+   "e_layers": 2,
+   "n_heads": 8,
+   "dropout": 0.2,
+   "learning_rate": 0.0001
+  },
+  "gpu": 2,
+  "val_macro": 0.367,
+  "test_micro": 0.5662358642972536,
+  "test_macro": 0.432979452831044,
+  "sec": 39,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "finance_sp500",
+  "cfg": {
+   "e_layers": 2,
+   "n_heads": 16,
+   "dropout": 0.0,
+   "learning_rate": 0.0001
+  },
+  "gpu": 2,
+  "val_macro": 0.377,
+  "test_micro": 0.5581583198707593,
+  "test_macro": 0.43800451283373243,
+  "sec": 29,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "finance_sp500",
+  "cfg": {
+   "e_layers": 2,
+   "n_heads": 16,
+   "dropout": 0.0,
+   "learning_rate": 0.001
+  },
+  "gpu": 3,
+  "val_macro": 0.355,
+  "test_micro": 0.6050080775444265,
+  "test_macro": 0.5117045264517889,
+  "sec": 30,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "finance_sp500",
+  "cfg": {
+   "e_layers": 2,
+   "n_heads": 16,
+   "dropout": 0.1,
+   "learning_rate": 0.0001
+  },
+  "gpu": 2,
+  "val_macro": 0.369,
+  "test_micro": 0.5468497576736672,
+  "test_macro": 0.42795454826086593,
+  "sec": 32,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "finance_sp500",
+  "cfg": {
+   "e_layers": 2,
+   "n_heads": 16,
+   "dropout": 0.1,
+   "learning_rate": 0.001
+  },
+  "gpu": 3,
+  "val_macro": 0.348,
+  "test_micro": 0.6324717285945073,
+  "test_macro": 0.523237738678873,
+  "sec": 35,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "finance_sp500",
+  "cfg": {
+   "e_layers": 2,
+   "n_heads": 16,
+   "dropout": 0.2,
+   "learning_rate": 0.0001
+  },
+  "gpu": 2,
+  "val_macro": 0.368,
+  "test_micro": 0.5218093699515347,
+  "test_macro": 0.4069353606258921,
+  "sec": 30,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "finance_sp500",
+  "cfg": {
+   "e_layers": 2,
+   "n_heads": 16,
+   "dropout": 0.2,
+   "learning_rate": 0.001
+  },
+  "gpu": 3,
+  "val_macro": 0.331,
+  "test_micro": 0.6276252019386107,
+  "test_macro": 0.510891712495133,
+  "sec": 43,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "finance_nikkei",
+  "cfg": {
+   "e_layers": 1,
+   "n_heads": 4,
+   "dropout": 0.0,
+   "learning_rate": 0.001
+  },
+  "gpu": 3,
+  "val_macro": 0.493,
+  "test_micro": 0.6211631663974152,
+  "test_macro": 0.5713167484596057,
+  "sec": 30,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "finance_nikkei",
+  "cfg": {
+   "e_layers": 1,
+   "n_heads": 4,
+   "dropout": 0.0,
+   "learning_rate": 0.0001
+  },
+  "gpu": 2,
+  "val_macro": 0.43,
+  "test_micro": 0.5387722132471728,
+  "test_macro": 0.49934996550096233,
+  "sec": 45,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "finance_nikkei",
+  "cfg": {
+   "e_layers": 1,
+   "n_heads": 4,
+   "dropout": 0.1,
+   "learning_rate": 0.0001
+  },
+  "gpu": 2,
+  "val_macro": 0.424,
+  "test_micro": 0.5088852988691438,
+  "test_macro": 0.4673916834611007,
+  "sec": 36,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "finance_nikkei",
+  "cfg": {
+   "e_layers": 1,
+   "n_heads": 4,
+   "dropout": 0.1,
+   "learning_rate": 0.001
+  },
+  "gpu": 3,
+  "val_macro": 0.479,
+  "test_micro": 0.5920840064620355,
+  "test_macro": 0.5427387074092063,
+  "sec": 30,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "finance_nikkei",
+  "cfg": {
+   "e_layers": 1,
+   "n_heads": 4,
+   "dropout": 0.2,
+   "learning_rate": 0.0001
+  },
+  "gpu": 2,
+  "val_macro": 0.401,
+  "test_micro": 0.49596122778675283,
+  "test_macro": 0.444778224259599,
+  "sec": 39,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "finance_nikkei",
+  "cfg": {
+   "e_layers": 1,
+   "n_heads": 4,
+   "dropout": 0.2,
+   "learning_rate": 0.001
+  },
+  "gpu": 3,
+  "val_macro": 0.47,
+  "test_micro": 0.5775444264943457,
+  "test_macro": 0.5357181772613892,
+  "sec": 31,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "finance_nikkei",
+  "cfg": {
+   "e_layers": 1,
+   "n_heads": 8,
+   "dropout": 0.0,
+   "learning_rate": 0.001
+  },
+  "gpu": 3,
+  "val_macro": 0.503,
+  "test_micro": 0.6195476575121163,
+  "test_macro": 0.5669769916069233,
+  "sec": 27,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "finance_nikkei",
+  "cfg": {
+   "e_layers": 1,
+   "n_heads": 8,
+   "dropout": 0.0,
+   "learning_rate": 0.0001
+  },
+  "gpu": 2,
+  "val_macro": 0.433,
+  "test_micro": 0.5363489499192245,
+  "test_macro": 0.4977241344091305,
+  "sec": 47,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "finance_nikkei",
+  "cfg": {
+   "e_layers": 1,
+   "n_heads": 8,
+   "dropout": 0.1,
+   "learning_rate": 0.001
+  },
+  "gpu": 3,
+  "val_macro": 0.482,
+  "test_micro": 0.6009693053311793,
+  "test_macro": 0.5483184774126627,
+  "sec": 29,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "finance_nikkei",
+  "cfg": {
+   "e_layers": 1,
+   "n_heads": 8,
+   "dropout": 0.1,
+   "learning_rate": 0.0001
+  },
+  "gpu": 2,
+  "val_macro": 0.422,
+  "test_micro": 0.5137318255250404,
+  "test_macro": 0.4711719233161767,
+  "sec": 42,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "finance_nikkei",
+  "cfg": {
+   "e_layers": 1,
+   "n_heads": 8,
+   "dropout": 0.2,
+   "learning_rate": 0.0001
+  },
+  "gpu": 2,
+  "val_macro": 0.394,
+  "test_micro": 0.4927302100161551,
+  "test_macro": 0.44015566697717695,
+  "sec": 37,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "finance_nikkei",
+  "cfg": {
+   "e_layers": 1,
+   "n_heads": 8,
+   "dropout": 0.2,
+   "learning_rate": 0.001
+  },
+  "gpu": 3,
+  "val_macro": 0.461,
+  "test_micro": 0.5823909531502424,
+  "test_macro": 0.5370804761745614,
+  "sec": 31,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "finance_nikkei",
+  "cfg": {
+   "e_layers": 1,
+   "n_heads": 16,
+   "dropout": 0.0,
+   "learning_rate": 0.001
+  },
+  "gpu": 3,
+  "val_macro": 0.5,
+  "test_micro": 0.6203554119547657,
+  "test_macro": 0.5681589772843815,
+  "sec": 30,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "finance_nikkei",
+  "cfg": {
+   "e_layers": 1,
+   "n_heads": 16,
+   "dropout": 0.0,
+   "learning_rate": 0.0001
+  },
+  "gpu": 2,
+  "val_macro": 0.427,
+  "test_micro": 0.5355411954765751,
+  "test_macro": 0.4959014783956428,
+  "sec": 44,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "finance_nikkei",
+  "cfg": {
+   "e_layers": 1,
+   "n_heads": 16,
+   "dropout": 0.1,
+   "learning_rate": 0.001
+  },
+  "gpu": 3,
+  "val_macro": 0.485,
+  "test_micro": 0.6138933764135702,
+  "test_macro": 0.5626002831524305,
+  "sec": 31,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "finance_nikkei",
+  "cfg": {
+   "e_layers": 1,
+   "n_heads": 16,
+   "dropout": 0.1,
+   "learning_rate": 0.0001
+  },
+  "gpu": 2,
+  "val_macro": 0.424,
+  "test_micro": 0.5145395799676898,
+  "test_macro": 0.472319221876744,
+  "sec": 52,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "finance_nikkei",
+  "cfg": {
+   "e_layers": 1,
+   "n_heads": 16,
+   "dropout": 0.2,
+   "learning_rate": 0.0001
+  },
+  "gpu": 2,
+  "val_macro": 0.388,
+  "test_micro": 0.48465266558966075,
+  "test_macro": 0.4355518785421451,
+  "sec": 32,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "finance_nikkei",
+  "cfg": {
+   "e_layers": 1,
+   "n_heads": 16,
+   "dropout": 0.2,
+   "learning_rate": 0.001
+  },
+  "gpu": 3,
+  "val_macro": 0.456,
+  "test_micro": 0.5718901453957996,
+  "test_macro": 0.5297883260556632,
+  "sec": 29,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "finance_nikkei",
+  "cfg": {
+   "e_layers": 2,
+   "n_heads": 4,
+   "dropout": 0.0,
+   "learning_rate": 0.0001
+  },
+  "gpu": 2,
+  "val_macro": 0.478,
+  "test_micro": 0.5476575121163166,
+  "test_macro": 0.5111661438319945,
+  "sec": 44,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "finance_nikkei",
+  "cfg": {
+   "e_layers": 2,
+   "n_heads": 4,
+   "dropout": 0.1,
+   "learning_rate": 0.0001
+  },
+  "gpu": 2,
+  "val_macro": 0.433,
+  "test_micro": 0.48465266558966075,
+  "test_macro": 0.455019693743298,
+  "sec": 36,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "finance_nikkei",
+  "cfg": {
+   "e_layers": 2,
+   "n_heads": 4,
+   "dropout": 0.0,
+   "learning_rate": 0.001
+  },
+  "gpu": 3,
+  "val_macro": 0.462,
+  "test_micro": 0.6882067851373183,
+  "test_macro": 0.6431519075864776,
+  "sec": 44,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "finance_nikkei",
+  "cfg": {
+   "e_layers": 2,
+   "n_heads": 4,
+   "dropout": 0.1,
+   "learning_rate": 0.001
+  },
+  "gpu": 3,
+  "val_macro": 0.486,
+  "test_micro": 0.6348949919224556,
+  "test_macro": 0.5981329062709092,
+  "sec": 49,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "finance_nikkei",
+  "cfg": {
+   "e_layers": 2,
+   "n_heads": 4,
+   "dropout": 0.2,
+   "learning_rate": 0.0001
+  },
+  "gpu": 2,
+  "val_macro": 0.405,
+  "test_micro": 0.4604200323101777,
+  "test_macro": 0.43340874475359153,
+  "sec": 42,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "finance_nikkei",
+  "cfg": {
+   "e_layers": 2,
+   "n_heads": 4,
+   "dropout": 0.2,
+   "learning_rate": 0.001
+  },
+  "gpu": 3,
+  "val_macro": 0.475,
+  "test_micro": 0.6009693053311793,
+  "test_macro": 0.5608480959040031,
+  "sec": 42,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "finance_nikkei",
+  "cfg": {
+   "e_layers": 2,
+   "n_heads": 8,
+   "dropout": 0.0,
+   "learning_rate": 0.0001
+  },
+  "gpu": 2,
+  "val_macro": 0.478,
+  "test_micro": 0.5476575121163166,
+  "test_macro": 0.511334768064238,
+  "sec": 43,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "finance_nikkei",
+  "cfg": {
+   "e_layers": 2,
+   "n_heads": 8,
+   "dropout": 0.0,
+   "learning_rate": 0.001
+  },
+  "gpu": 3,
+  "val_macro": 0.475,
+  "test_micro": 0.7108239095315024,
+  "test_macro": 0.6669585894900366,
+  "sec": 49,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "finance_nikkei",
+  "cfg": {
+   "e_layers": 2,
+   "n_heads": 8,
+   "dropout": 0.1,
+   "learning_rate": 0.0001
+  },
+  "gpu": 2,
+  "val_macro": 0.446,
+  "test_micro": 0.5032310177705978,
+  "test_macro": 0.4708537507851402,
+  "sec": 45,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "finance_nikkei",
+  "cfg": {
+   "e_layers": 2,
+   "n_heads": 8,
+   "dropout": 0.1,
+   "learning_rate": 0.001
+  },
+  "gpu": 3,
+  "val_macro": 0.48,
+  "test_micro": 0.6252019386106623,
+  "test_macro": 0.5905526606607876,
+  "sec": 42,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "finance_nikkei",
+  "cfg": {
+   "e_layers": 2,
+   "n_heads": 8,
+   "dropout": 0.2,
+   "learning_rate": 0.0001
+  },
+  "gpu": 2,
+  "val_macro": 0.412,
+  "test_micro": 0.4555735056542811,
+  "test_macro": 0.4325342998959949,
+  "sec": 39,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "finance_nikkei",
+  "cfg": {
+   "e_layers": 2,
+   "n_heads": 8,
+   "dropout": 0.2,
+   "learning_rate": 0.001
+  },
+  "gpu": 3,
+  "val_macro": 0.478,
+  "test_micro": 0.5888529886914378,
+  "test_macro": 0.5337458670792005,
+  "sec": 33,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "finance_nikkei",
+  "cfg": {
+   "e_layers": 2,
+   "n_heads": 16,
+   "dropout": 0.0,
+   "learning_rate": 0.0001
+  },
+  "gpu": 2,
+  "val_macro": 0.478,
+  "test_micro": 0.5460420032310178,
+  "test_macro": 0.5111019517205775,
+  "sec": 54,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "finance_nikkei",
+  "cfg": {
+   "e_layers": 2,
+   "n_heads": 16,
+   "dropout": 0.1,
+   "learning_rate": 0.0001
+  },
+  "gpu": 2,
+  "val_macro": 0.449,
+  "test_micro": 0.4991922455573506,
+  "test_macro": 0.46626179969190495,
+  "sec": 47,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "finance_nikkei",
+  "cfg": {
+   "e_layers": 2,
+   "n_heads": 16,
+   "dropout": 0.0,
+   "learning_rate": 0.001
+  },
+  "gpu": 3,
+  "val_macro": 0.481,
+  "test_micro": 0.7180936995153473,
+  "test_macro": 0.6722376615108437,
+  "sec": 54,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "finance_nikkei",
+  "cfg": {
+   "e_layers": 2,
+   "n_heads": 16,
+   "dropout": 0.1,
+   "learning_rate": 0.001
+  },
+  "gpu": 3,
+  "val_macro": 0.475,
+  "test_micro": 0.6340872374798061,
+  "test_macro": 0.5925280114774636,
+  "sec": 47,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "healthcare_mortality",
+  "cfg": {
+   "e_layers": 1,
+   "n_heads": 4,
+   "dropout": 0.0,
+   "learning_rate": 0.001
+  },
+  "gpu": 3,
+  "val_macro": 0.661,
+  "test_micro": 0.5973333333333334,
+  "test_macro": 0.5959426577518356,
+  "sec": 19,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "healthcare_mortality",
+  "cfg": {
+   "e_layers": 1,
+   "n_heads": 4,
+   "dropout": 0.0,
+   "learning_rate": 0.0001
+  },
+  "gpu": 2,
+  "val_macro": 0.788,
+  "test_micro": 0.704,
+  "test_macro": 0.6990695555989329,
+  "sec": 26,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "finance_nikkei",
+  "cfg": {
+   "e_layers": 2,
+   "n_heads": 16,
+   "dropout": 0.2,
+   "learning_rate": 0.0001
+  },
+  "gpu": 2,
+  "val_macro": 0.408,
+  "test_micro": 0.44507269789983844,
+  "test_macro": 0.4234466382572757,
+  "sec": 36,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "finance_nikkei",
+  "cfg": {
+   "e_layers": 2,
+   "n_heads": 16,
+   "dropout": 0.2,
+   "learning_rate": 0.001
+  },
+  "gpu": 3,
+  "val_macro": 0.477,
+  "test_micro": 0.5904684975767367,
+  "test_macro": 0.556921229709293,
+  "sec": 50,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "healthcare_mortality",
+  "cfg": {
+   "e_layers": 1,
+   "n_heads": 4,
+   "dropout": 0.1,
+   "learning_rate": 0.001
+  },
+  "gpu": 3,
+  "val_macro": 0.793,
+  "test_micro": 0.6986666666666667,
+  "test_macro": 0.6936473854295443,
+  "sec": 21,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "healthcare_mortality",
+  "cfg": {
+   "e_layers": 1,
+   "n_heads": 4,
+   "dropout": 0.1,
+   "learning_rate": 0.0001
+  },
+  "gpu": 2,
+  "val_macro": 0.801,
+  "test_micro": 0.7146666666666667,
+  "test_macro": 0.70991389593771,
+  "sec": 26,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "healthcare_mortality",
+  "cfg": {
+   "e_layers": 1,
+   "n_heads": 4,
+   "dropout": 0.2,
+   "learning_rate": 0.0001
+  },
+  "gpu": 2,
+  "val_macro": 0.797,
+  "test_micro": 0.704,
+  "test_macro": 0.6986425339366515,
+  "sec": 24,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "healthcare_mortality",
+  "cfg": {
+   "e_layers": 1,
+   "n_heads": 4,
+   "dropout": 0.2,
+   "learning_rate": 0.001
+  },
+  "gpu": 3,
+  "val_macro": 0.829,
+  "test_micro": 0.688,
+  "test_macro": 0.6844092789066714,
+  "sec": 20,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "healthcare_mortality",
+  "cfg": {
+   "e_layers": 1,
+   "n_heads": 8,
+   "dropout": 0.0,
+   "learning_rate": 0.001
+  },
+  "gpu": 3,
+  "val_macro": 0.675,
+  "test_micro": 0.6133333333333333,
+  "test_macro": 0.611465605327655,
+  "sec": 20,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "healthcare_mortality",
+  "cfg": {
+   "e_layers": 1,
+   "n_heads": 8,
+   "dropout": 0.0,
+   "learning_rate": 0.0001
+  },
+  "gpu": 2,
+  "val_macro": 0.775,
+  "test_micro": 0.6986666666666667,
+  "test_macro": 0.6936473854295443,
+  "sec": 22,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "healthcare_mortality",
+  "cfg": {
+   "e_layers": 1,
+   "n_heads": 8,
+   "dropout": 0.1,
+   "learning_rate": 0.0001
+  },
+  "gpu": 2,
+  "val_macro": 0.801,
+  "test_micro": 0.7173333333333334,
+  "test_macro": 0.7120066075465137,
+  "sec": 23,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "healthcare_mortality",
+  "cfg": {
+   "e_layers": 1,
+   "n_heads": 8,
+   "dropout": 0.1,
+   "learning_rate": 0.001
+  },
+  "gpu": 3,
+  "val_macro": 0.767,
+  "test_micro": 0.6933333333333334,
+  "test_macro": 0.6858175301068767,
+  "sec": 21,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "healthcare_mortality",
+  "cfg": {
+   "e_layers": 1,
+   "n_heads": 8,
+   "dropout": 0.2,
+   "learning_rate": 0.001
+  },
+  "gpu": 3,
+  "val_macro": 0.816,
+  "test_micro": 0.6933333333333334,
+  "test_macro": 0.6882252152601558,
+  "sec": 21,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "healthcare_mortality",
+  "cfg": {
+   "e_layers": 1,
+   "n_heads": 8,
+   "dropout": 0.2,
+   "learning_rate": 0.0001
+  },
+  "gpu": 2,
+  "val_macro": 0.801,
+  "test_micro": 0.7173333333333334,
+  "test_macro": 0.7120066075465137,
+  "sec": 27,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "healthcare_mortality",
+  "cfg": {
+   "e_layers": 1,
+   "n_heads": 16,
+   "dropout": 0.0,
+   "learning_rate": 0.0001
+  },
+  "gpu": 2,
+  "val_macro": 0.79,
+  "test_micro": 0.7066666666666667,
+  "test_macro": 0.6997292103424179,
+  "sec": 23,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "healthcare_mortality",
+  "cfg": {
+   "e_layers": 1,
+   "n_heads": 16,
+   "dropout": 0.0,
+   "learning_rate": 0.001
+  },
+  "gpu": 3,
+  "val_macro": 0.65,
+  "test_micro": 0.6133333333333333,
+  "test_macro": 0.6104970594766513,
+  "sec": 19,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "healthcare_mortality",
+  "cfg": {
+   "e_layers": 1,
+   "n_heads": 16,
+   "dropout": 0.1,
+   "learning_rate": 0.0001
+  },
+  "gpu": 2,
+  "val_macro": 0.788,
+  "test_micro": 0.7146666666666667,
+  "test_macro": 0.7086247086247086,
+  "sec": 24,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "healthcare_mortality",
+  "cfg": {
+   "e_layers": 1,
+   "n_heads": 16,
+   "dropout": 0.1,
+   "learning_rate": 0.001
+  },
+  "gpu": 3,
+  "val_macro": 0.742,
+  "test_micro": 0.688,
+  "test_macro": 0.6798029556650247,
+  "sec": 21,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "healthcare_mortality",
+  "cfg": {
+   "e_layers": 1,
+   "n_heads": 16,
+   "dropout": 0.2,
+   "learning_rate": 0.0001
+  },
+  "gpu": 2,
+  "val_macro": 0.801,
+  "test_micro": 0.7173333333333334,
+  "test_macro": 0.71157195100714,
+  "sec": 26,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "healthcare_mortality",
+  "cfg": {
+   "e_layers": 1,
+   "n_heads": 16,
+   "dropout": 0.2,
+   "learning_rate": 0.001
+  },
+  "gpu": 3,
+  "val_macro": 0.816,
+  "test_micro": 0.6826666666666666,
+  "test_macro": 0.6782369185732106,
+  "sec": 19,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "healthcare_mortality",
+  "cfg": {
+   "e_layers": 2,
+   "n_heads": 4,
+   "dropout": 0.0,
+   "learning_rate": 0.0001
+  },
+  "gpu": 2,
+  "val_macro": 0.744,
+  "test_micro": 0.672,
+  "test_macro": 0.6655694201753177,
+  "sec": 20,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "healthcare_mortality",
+  "cfg": {
+   "e_layers": 2,
+   "n_heads": 4,
+   "dropout": 0.0,
+   "learning_rate": 0.001
+  },
+  "gpu": 3,
+  "val_macro": 0.667,
+  "test_micro": 0.6293333333333333,
+  "test_macro": 0.6275428906244418,
+  "sec": 20,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "healthcare_mortality",
+  "cfg": {
+   "e_layers": 2,
+   "n_heads": 4,
+   "dropout": 0.1,
+   "learning_rate": 0.0001
+  },
+  "gpu": 2,
+  "val_macro": 0.785,
+  "test_micro": 0.68,
+  "test_macro": 0.6734776803854414,
+  "sec": 21,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "healthcare_mortality",
+  "cfg": {
+   "e_layers": 2,
+   "n_heads": 4,
+   "dropout": 0.1,
+   "learning_rate": 0.001
+  },
+  "gpu": 3,
+  "val_macro": 0.744,
+  "test_micro": 0.68,
+  "test_macro": 0.6768541391394267,
+  "sec": 21,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "healthcare_mortality",
+  "cfg": {
+   "e_layers": 2,
+   "n_heads": 4,
+   "dropout": 0.2,
+   "learning_rate": 0.0001
+  },
+  "gpu": 2,
+  "val_macro": 0.788,
+  "test_micro": 0.6826666666666666,
+  "test_macro": 0.6748894441975506,
+  "sec": 21,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "healthcare_mortality",
+  "cfg": {
+   "e_layers": 2,
+   "n_heads": 4,
+   "dropout": 0.2,
+   "learning_rate": 0.001
+  },
+  "gpu": 3,
+  "val_macro": 0.769,
+  "test_micro": 0.688,
+  "test_macro": 0.6850978618952264,
+  "sec": 24,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "healthcare_mortality",
+  "cfg": {
+   "e_layers": 2,
+   "n_heads": 8,
+   "dropout": 0.0,
+   "learning_rate": 0.0001
+  },
+  "gpu": 2,
+  "val_macro": 0.744,
+  "test_micro": 0.6693333333333333,
+  "test_macro": 0.6631020692053555,
+  "sec": 20,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "healthcare_mortality",
+  "cfg": {
+   "e_layers": 2,
+   "n_heads": 8,
+   "dropout": 0.0,
+   "learning_rate": 0.001
+  },
+  "gpu": 3,
+  "val_macro": 0.655,
+  "test_micro": 0.624,
+  "test_macro": 0.622183795525513,
+  "sec": 19,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "healthcare_mortality",
+  "cfg": {
+   "e_layers": 2,
+   "n_heads": 8,
+   "dropout": 0.1,
+   "learning_rate": 0.0001
+  },
+  "gpu": 2,
+  "val_macro": 0.785,
+  "test_micro": 0.6853333333333333,
+  "test_macro": 0.6784156976744187,
+  "sec": 23,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "healthcare_mortality",
+  "cfg": {
+   "e_layers": 2,
+   "n_heads": 8,
+   "dropout": 0.1,
+   "learning_rate": 0.001
+  },
+  "gpu": 3,
+  "val_macro": 0.735,
+  "test_micro": 0.6746666666666666,
+  "test_macro": 0.6703320458868969,
+  "sec": 20,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "healthcare_mortality",
+  "cfg": {
+   "e_layers": 2,
+   "n_heads": 8,
+   "dropout": 0.2,
+   "learning_rate": 0.001
+  },
+  "gpu": 3,
+  "val_macro": 0.747,
+  "test_micro": 0.6853333333333333,
+  "test_macro": 0.6778913347309574,
+  "sec": 20,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "healthcare_mortality",
+  "cfg": {
+   "e_layers": 2,
+   "n_heads": 8,
+   "dropout": 0.2,
+   "learning_rate": 0.0001
+  },
+  "gpu": 2,
+  "val_macro": 0.801,
+  "test_micro": 0.688,
+  "test_macro": 0.6798029556650247,
+  "sec": 24,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "healthcare_mortality",
+  "cfg": {
+   "e_layers": 2,
+   "n_heads": 16,
+   "dropout": 0.0,
+   "learning_rate": 0.0001
+  },
+  "gpu": 2,
+  "val_macro": 0.744,
+  "test_micro": 0.6746666666666666,
+  "test_macro": 0.6680356417251988,
+  "sec": 20,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "healthcare_mortality",
+  "cfg": {
+   "e_layers": 2,
+   "n_heads": 16,
+   "dropout": 0.0,
+   "learning_rate": 0.001
+  },
+  "gpu": 3,
+  "val_macro": 0.667,
+  "test_micro": 0.6293333333333333,
+  "test_macro": 0.6275428906244418,
+  "sec": 20,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "healthcare_mortality",
+  "cfg": {
+   "e_layers": 2,
+   "n_heads": 16,
+   "dropout": 0.1,
+   "learning_rate": 0.0001
+  },
+  "gpu": 2,
+  "val_macro": 0.785,
+  "test_micro": 0.6826666666666666,
+  "test_macro": 0.6759471058536479,
+  "sec": 21,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "healthcare_mortality",
+  "cfg": {
+   "e_layers": 2,
+   "n_heads": 16,
+   "dropout": 0.1,
+   "learning_rate": 0.001
+  },
+  "gpu": 3,
+  "val_macro": 0.74,
+  "test_micro": 0.6986666666666667,
+  "test_macro": 0.6948387236157021,
+  "sec": 22,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "healthcare_mortality",
+  "cfg": {
+   "e_layers": 2,
+   "n_heads": 16,
+   "dropout": 0.2,
+   "learning_rate": 0.001
+  },
+  "gpu": 3,
+  "val_macro": 0.778,
+  "test_micro": 0.704,
+  "test_macro": 0.6951197181551172,
+  "sec": 20,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "healthcare_mortality",
+  "cfg": {
+   "e_layers": 2,
+   "n_heads": 16,
+   "dropout": 0.2,
+   "learning_rate": 0.0001
+  },
+  "gpu": 2,
+  "val_macro": 0.801,
+  "test_micro": 0.688,
+  "test_macro": 0.6798029556650247,
+  "sec": 22,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "healthcare_positive",
+  "cfg": {
+   "e_layers": 1,
+   "n_heads": 4,
+   "dropout": 0.0,
+   "learning_rate": 0.001
+  },
+  "gpu": 3,
+  "val_macro": 0.709,
+  "test_micro": 0.9110070257611241,
+  "test_macro": 0.8982874479715159,
+  "sec": 27,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "healthcare_positive",
+  "cfg": {
+   "e_layers": 1,
+   "n_heads": 4,
+   "dropout": 0.0,
+   "learning_rate": 0.0001
+  },
+  "gpu": 2,
+  "val_macro": 0.572,
+  "test_micro": 0.8454332552693209,
+  "test_macro": 0.8358839972047519,
+  "sec": 40,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "healthcare_positive",
+  "cfg": {
+   "e_layers": 1,
+   "n_heads": 4,
+   "dropout": 0.1,
+   "learning_rate": 0.001
+  },
+  "gpu": 3,
+  "val_macro": 0.714,
+  "test_micro": 0.8992974238875878,
+  "test_macro": 0.8871682367617326,
+  "sec": 28,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "healthcare_positive",
+  "cfg": {
+   "e_layers": 1,
+   "n_heads": 4,
+   "dropout": 0.1,
+   "learning_rate": 0.0001
+  },
+  "gpu": 2,
+  "val_macro": 0.542,
+  "test_micro": 0.8266978922716628,
+  "test_macro": 0.8172681008558871,
+  "sec": 32,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "healthcare_positive",
+  "cfg": {
+   "e_layers": 1,
+   "n_heads": 4,
+   "dropout": 0.2,
+   "learning_rate": 0.0001
+  },
+  "gpu": 2,
+  "val_macro": 0.503,
+  "test_micro": 0.8032786885245902,
+  "test_macro": 0.7947585259784848,
+  "sec": 29,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "healthcare_positive",
+  "cfg": {
+   "e_layers": 1,
+   "n_heads": 4,
+   "dropout": 0.2,
+   "learning_rate": 0.001
+  },
+  "gpu": 3,
+  "val_macro": 0.67,
+  "test_micro": 0.892271662763466,
+  "test_macro": 0.8818170878459688,
+  "sec": 29,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "healthcare_positive",
+  "cfg": {
+   "e_layers": 1,
+   "n_heads": 8,
+   "dropout": 0.0,
+   "learning_rate": 0.001
+  },
+  "gpu": 3,
+  "val_macro": 0.724,
+  "test_micro": 0.9133489461358314,
+  "test_macro": 0.9003927799108522,
+  "sec": 28,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "healthcare_positive",
+  "cfg": {
+   "e_layers": 1,
+   "n_heads": 8,
+   "dropout": 0.0,
+   "learning_rate": 0.0001
+  },
+  "gpu": 2,
+  "val_macro": 0.559,
+  "test_micro": 0.8477751756440282,
+  "test_macro": 0.8373714587056514,
+  "sec": 30,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "healthcare_positive",
+  "cfg": {
+   "e_layers": 1,
+   "n_heads": 8,
+   "dropout": 0.1,
+   "learning_rate": 0.0001
+  },
+  "gpu": 2,
+  "val_macro": 0.542,
+  "test_micro": 0.8266978922716628,
+  "test_macro": 0.8172681008558871,
+  "sec": 32,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "healthcare_positive",
+  "cfg": {
+   "e_layers": 1,
+   "n_heads": 8,
+   "dropout": 0.1,
+   "learning_rate": 0.001
+  },
+  "gpu": 3,
+  "val_macro": 0.701,
+  "test_micro": 0.9016393442622951,
+  "test_macro": 0.8903521643433603,
+  "sec": 26,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "healthcare_positive",
+  "cfg": {
+   "e_layers": 1,
+   "n_heads": 8,
+   "dropout": 0.2,
+   "learning_rate": 0.001
+  },
+  "gpu": 3,
+  "val_macro": 0.659,
+  "test_micro": 0.8875878220140515,
+  "test_macro": 0.8774162679425836,
+  "sec": 26,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "healthcare_positive",
+  "cfg": {
+   "e_layers": 1,
+   "n_heads": 8,
+   "dropout": 0.2,
+   "learning_rate": 0.0001
+  },
+  "gpu": 2,
+  "val_macro": 0.503,
+  "test_micro": 0.8056206088992974,
+  "test_macro": 0.7969985966721082,
+  "sec": 27,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "healthcare_positive",
+  "cfg": {
+   "e_layers": 1,
+   "n_heads": 16,
+   "dropout": 0.0,
+   "learning_rate": 0.001
+  },
+  "gpu": 3,
+  "val_macro": 0.705,
+  "test_micro": 0.8665105386416861,
+  "test_macro": 0.8550637471788674,
+  "sec": 21,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "healthcare_positive",
+  "cfg": {
+   "e_layers": 1,
+   "n_heads": 16,
+   "dropout": 0.1,
+   "learning_rate": 0.001
+  },
+  "gpu": 3,
+  "val_macro": 0.728,
+  "test_micro": 0.9063231850117096,
+  "test_macro": 0.8952198665096192,
+  "sec": 26,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "healthcare_positive",
+  "cfg": {
+   "e_layers": 1,
+   "n_heads": 16,
+   "dropout": 0.0,
+   "learning_rate": 0.0001
+  },
+  "gpu": 2,
+  "val_macro": 0.572,
+  "test_micro": 0.8454332552693209,
+  "test_macro": 0.8358839972047519,
+  "sec": 35,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "healthcare_positive",
+  "cfg": {
+   "e_layers": 1,
+   "n_heads": 16,
+   "dropout": 0.1,
+   "learning_rate": 0.0001
+  },
+  "gpu": 2,
+  "val_macro": 0.542,
+  "test_micro": 0.8266978922716628,
+  "test_macro": 0.8172681008558871,
+  "sec": 33,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "healthcare_positive",
+  "cfg": {
+   "e_layers": 1,
+   "n_heads": 16,
+   "dropout": 0.2,
+   "learning_rate": 0.0001
+  },
+  "gpu": 2,
+  "val_macro": 0.503,
+  "test_micro": 0.8032786885245902,
+  "test_macro": 0.7943442961332049,
+  "sec": 29,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "healthcare_positive",
+  "cfg": {
+   "e_layers": 1,
+   "n_heads": 16,
+   "dropout": 0.2,
+   "learning_rate": 0.001
+  },
+  "gpu": 3,
+  "val_macro": 0.659,
+  "test_micro": 0.8899297423887588,
+  "test_macro": 0.8797925164567273,
+  "sec": 25,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "healthcare_positive",
+  "cfg": {
+   "e_layers": 2,
+   "n_heads": 4,
+   "dropout": 0.0,
+   "learning_rate": 0.001
+  },
+  "gpu": 3,
+  "val_macro": 0.707,
+  "test_micro": 0.882903981264637,
+  "test_macro": 0.871540312876053,
+  "sec": 21,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "healthcare_positive",
+  "cfg": {
+   "e_layers": 2,
+   "n_heads": 4,
+   "dropout": 0.0,
+   "learning_rate": 0.0001
+  },
+  "gpu": 2,
+  "val_macro": 0.612,
+  "test_micro": 0.8548009367681498,
+  "test_macro": 0.8446799023749179,
+  "sec": 28,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "healthcare_positive",
+  "cfg": {
+   "e_layers": 2,
+   "n_heads": 4,
+   "dropout": 0.1,
+   "learning_rate": 0.0001
+  },
+  "gpu": 2,
+  "val_macro": 0.572,
+  "test_micro": 0.8126463700234192,
+  "test_macro": 0.8045319295033189,
+  "sec": 31,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "healthcare_positive",
+  "cfg": {
+   "e_layers": 2,
+   "n_heads": 4,
+   "dropout": 0.1,
+   "learning_rate": 0.001
+  },
+  "gpu": 3,
+  "val_macro": 0.705,
+  "test_micro": 0.9086651053864169,
+  "test_macro": 0.8973082971048008,
+  "sec": 29,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "healthcare_positive",
+  "cfg": {
+   "e_layers": 2,
+   "n_heads": 4,
+   "dropout": 0.2,
+   "learning_rate": 0.0001
+  },
+  "gpu": 2,
+  "val_macro": 0.575,
+  "test_micro": 0.7962529274004684,
+  "test_macro": 0.7892195523277257,
+  "sec": 28,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "healthcare_positive",
+  "cfg": {
+   "e_layers": 2,
+   "n_heads": 4,
+   "dropout": 0.2,
+   "learning_rate": 0.001
+  },
+  "gpu": 3,
+  "val_macro": 0.693,
+  "test_micro": 0.9016393442622951,
+  "test_macro": 0.8907156437381173,
+  "sec": 29,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "healthcare_positive",
+  "cfg": {
+   "e_layers": 2,
+   "n_heads": 8,
+   "dropout": 0.0,
+   "learning_rate": 0.0001
+  },
+  "gpu": 2,
+  "val_macro": 0.612,
+  "test_micro": 0.8501170960187353,
+  "test_macro": 0.8404707420725728,
+  "sec": 27,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "healthcare_positive",
+  "cfg": {
+   "e_layers": 2,
+   "n_heads": 8,
+   "dropout": 0.1,
+   "learning_rate": 0.001
+  },
+  "gpu": 3,
+  "val_macro": 0.684,
+  "test_micro": 0.8875878220140515,
+  "test_macro": 0.877051540454938,
+  "sec": 22,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "healthcare_positive",
+  "cfg": {
+   "e_layers": 2,
+   "n_heads": 8,
+   "dropout": 0.0,
+   "learning_rate": 0.001
+  },
+  "gpu": 3,
+  "val_macro": 0.717,
+  "test_micro": 0.9110070257611241,
+  "test_macro": 0.8986685651478816,
+  "sec": 27,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "healthcare_positive",
+  "cfg": {
+   "e_layers": 2,
+   "n_heads": 8,
+   "dropout": 0.1,
+   "learning_rate": 0.0001
+  },
+  "gpu": 2,
+  "val_macro": 0.585,
+  "test_micro": 0.8126463700234192,
+  "test_macro": 0.8049159356725146,
+  "sec": 32,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "healthcare_positive",
+  "cfg": {
+   "e_layers": 2,
+   "n_heads": 8,
+   "dropout": 0.2,
+   "learning_rate": 0.001
+  },
+  "gpu": 3,
+  "val_macro": 0.693,
+  "test_micro": 0.8969555035128806,
+  "test_macro": 0.8855116267732657,
+  "sec": 27,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "healthcare_positive",
+  "cfg": {
+   "e_layers": 2,
+   "n_heads": 8,
+   "dropout": 0.2,
+   "learning_rate": 0.0001
+  },
+  "gpu": 2,
+  "val_macro": 0.567,
+  "test_micro": 0.7915690866510539,
+  "test_macro": 0.7847501883287171,
+  "sec": 28,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "healthcare_positive",
+  "cfg": {
+   "e_layers": 2,
+   "n_heads": 16,
+   "dropout": 0.0,
+   "learning_rate": 0.0001
+  },
+  "gpu": 2,
+  "val_macro": 0.612,
+  "test_micro": 0.8501170960187353,
+  "test_macro": 0.8400749063670412,
+  "sec": 30,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "healthcare_positive",
+  "cfg": {
+   "e_layers": 2,
+   "n_heads": 16,
+   "dropout": 0.0,
+   "learning_rate": 0.001
+  },
+  "gpu": 3,
+  "val_macro": 0.73,
+  "test_micro": 0.9133489461358314,
+  "test_macro": 0.9011506047087825,
+  "sec": 25,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "healthcare_positive",
+  "cfg": {
+   "e_layers": 2,
+   "n_heads": 16,
+   "dropout": 0.1,
+   "learning_rate": 0.001
+  },
+  "gpu": 3,
+  "val_macro": 0.705,
+  "test_micro": 0.9086651053864169,
+  "test_macro": 0.8973082971048008,
+  "sec": 26,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "healthcare_positive",
+  "cfg": {
+   "e_layers": 2,
+   "n_heads": 16,
+   "dropout": 0.1,
+   "learning_rate": 0.0001
+  },
+  "gpu": 2,
+  "val_macro": 0.585,
+  "test_micro": 0.8126463700234192,
+  "test_macro": 0.8049159356725146,
+  "sec": 30,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "healthcare_positive",
+  "cfg": {
+   "e_layers": 2,
+   "n_heads": 16,
+   "dropout": 0.2,
+   "learning_rate": 0.0001
+  },
+  "gpu": 2,
+  "val_macro": 0.575,
+  "test_micro": 0.7962529274004684,
+  "test_macro": 0.7892195523277257,
+  "sec": 28,
+  "err": null
+ },
+ {
+  "baseline": "tslib_patchtst",
+  "ds": "healthcare_positive",
+  "cfg": {
+   "e_layers": 2,
+   "n_heads": 16,
+   "dropout": 0.2,
+   "learning_rate": 0.001
+  },
+  "gpu": 3,
+  "val_macro": 0.719,
+  "test_micro": 0.8946135831381733,
+  "test_macro": 0.8838474511724064,
+  "sec": 25,
+  "err": null
+ }
+]

@@ -1,0 +1,590 @@
+[
+ {
+  "baseline": "gpt4ts_official",
+  "ds": "weather_ny",
+  "cfg": {
+   "dropout": 0.1,
+   "learning_rate": 0.001
+  },
+  "gpu": 3,
+  "val_macro": 0.571,
+  "test_micro": 0.6882634094530006,
+  "test_macro": 0.563049463853338,
+  "sec": 51,
+  "err": null
+ },
+ {
+  "baseline": "gpt4ts_official",
+  "ds": "weather_ny",
+  "cfg": {
+   "dropout": 0.0,
+   "learning_rate": 0.0001
+  },
+  "gpu": 2,
+  "val_macro": 0.566,
+  "test_micro": 0.6340945300053107,
+  "test_macro": 0.5773417874510236,
+  "sec": 54,
+  "err": null
+ },
+ {
+  "baseline": "gpt4ts_official",
+  "ds": "weather_ny",
+  "cfg": {
+   "dropout": 0.1,
+   "learning_rate": 0.0001
+  },
+  "gpu": 2,
+  "val_macro": 0.562,
+  "test_micro": 0.6160382368560807,
+  "test_macro": 0.5713481474484615,
+  "sec": 59,
+  "err": null
+ },
+ {
+  "baseline": "gpt4ts_official",
+  "ds": "weather_ny",
+  "cfg": {
+   "dropout": 0.0,
+   "learning_rate": 0.001
+  },
+  "gpu": 3,
+  "val_macro": 0.543,
+  "test_micro": 0.5868295273499734,
+  "test_macro": 0.562851962635563,
+  "sec": 67,
+  "err": null
+ },
+ {
+  "baseline": "gpt4ts_official",
+  "ds": "weather_ny",
+  "cfg": {
+   "dropout": 0.2,
+   "learning_rate": 0.0001
+  },
+  "gpu": 2,
+  "val_macro": 0.564,
+  "test_micro": 0.6409984067976633,
+  "test_macro": 0.5427050252195031,
+  "sec": 36,
+  "err": null
+ },
+ {
+  "baseline": "gpt4ts_official",
+  "ds": "weather_ny",
+  "cfg": {
+   "dropout": 0.2,
+   "learning_rate": 0.001
+  },
+  "gpu": 3,
+  "val_macro": 0.563,
+  "test_micro": 0.636218799787573,
+  "test_macro": 0.5755303587500762,
+  "sec": 49,
+  "err": null
+ },
+ {
+  "baseline": "gpt4ts_official",
+  "ds": "weather_sf",
+  "cfg": {
+   "dropout": 0.0,
+   "learning_rate": 0.001
+  },
+  "gpu": 3,
+  "val_macro": 0.6,
+  "test_micro": 0.6893255443441317,
+  "test_macro": 0.5771039420083546,
+  "sec": 44,
+  "err": null
+ },
+ {
+  "baseline": "gpt4ts_official",
+  "ds": "weather_sf",
+  "cfg": {
+   "dropout": 0.0,
+   "learning_rate": 0.0001
+  },
+  "gpu": 2,
+  "val_macro": 0.606,
+  "test_micro": 0.6765799256505576,
+  "test_macro": 0.5985888352272428,
+  "sec": 72,
+  "err": null
+ },
+ {
+  "baseline": "gpt4ts_official",
+  "ds": "weather_sf",
+  "cfg": {
+   "dropout": 0.1,
+   "learning_rate": 0.0001
+  },
+  "gpu": 2,
+  "val_macro": 0.607,
+  "test_micro": 0.6829527349973447,
+  "test_macro": 0.5901556506626446,
+  "sec": 63,
+  "err": null
+ },
+ {
+  "baseline": "gpt4ts_official",
+  "ds": "weather_sf",
+  "cfg": {
+   "dropout": 0.1,
+   "learning_rate": 0.001
+  },
+  "gpu": 3,
+  "val_macro": 0.587,
+  "test_micro": 0.6383430695698353,
+  "test_macro": 0.5833682334291691,
+  "sec": 54,
+  "err": null
+ },
+ {
+  "baseline": "gpt4ts_official",
+  "ds": "weather_sf",
+  "cfg": {
+   "dropout": 0.2,
+   "learning_rate": 0.0001
+  },
+  "gpu": 2,
+  "val_macro": 0.606,
+  "test_micro": 0.6818906001062135,
+  "test_macro": 0.5780858576166905,
+  "sec": 77,
+  "err": null
+ },
+ {
+  "baseline": "gpt4ts_official",
+  "ds": "weather_sf",
+  "cfg": {
+   "dropout": 0.2,
+   "learning_rate": 0.001
+  },
+  "gpu": 3,
+  "val_macro": 0.586,
+  "test_micro": 0.6436537440254912,
+  "test_macro": 0.5857499148381039,
+  "sec": 59,
+  "err": null
+ },
+ {
+  "baseline": "gpt4ts_official",
+  "ds": "weather_hs",
+  "cfg": {
+   "dropout": 0.0,
+   "learning_rate": 0.0001
+  },
+  "gpu": 2,
+  "val_macro": 0.702,
+  "test_micro": 0.6914498141263941,
+  "test_macro": 0.6615121056381801,
+  "sec": 67,
+  "err": null
+ },
+ {
+  "baseline": "gpt4ts_official",
+  "ds": "weather_hs",
+  "cfg": {
+   "dropout": 0.0,
+   "learning_rate": 0.001
+  },
+  "gpu": 3,
+  "val_macro": 0.703,
+  "test_micro": 0.6972915560276155,
+  "test_macro": 0.6711398744012982,
+  "sec": 79,
+  "err": null
+ },
+ {
+  "baseline": "gpt4ts_official",
+  "ds": "weather_hs",
+  "cfg": {
+   "dropout": 0.1,
+   "learning_rate": 0.001
+  },
+  "gpu": 3,
+  "val_macro": 0.716,
+  "test_micro": 0.6919808815719597,
+  "test_macro": 0.666445547191294,
+  "sec": 56,
+  "err": null
+ },
+ {
+  "baseline": "gpt4ts_official",
+  "ds": "weather_hs",
+  "cfg": {
+   "dropout": 0.1,
+   "learning_rate": 0.0001
+  },
+  "gpu": 2,
+  "val_macro": 0.692,
+  "test_micro": 0.6956983536909187,
+  "test_macro": 0.6592294376314061,
+  "sec": 69,
+  "err": null
+ },
+ {
+  "baseline": "gpt4ts_official",
+  "ds": "weather_hs",
+  "cfg": {
+   "dropout": 0.2,
+   "learning_rate": 0.001
+  },
+  "gpu": 3,
+  "val_macro": 0.69,
+  "test_micro": 0.6893255443441317,
+  "test_macro": 0.658467823322429,
+  "sec": 40,
+  "err": null
+ },
+ {
+  "baseline": "gpt4ts_official",
+  "ds": "weather_hs",
+  "cfg": {
+   "dropout": 0.2,
+   "learning_rate": 0.0001
+  },
+  "gpu": 2,
+  "val_macro": 0.679,
+  "test_micro": 0.6956983536909187,
+  "test_macro": 0.6518886323930098,
+  "sec": 60,
+  "err": null
+ },
+ {
+  "baseline": "gpt4ts_official",
+  "ds": "finance_sp500",
+  "cfg": {
+   "dropout": 0.0,
+   "learning_rate": 0.0001
+  },
+  "gpu": 2,
+  "val_macro": 0.37,
+  "test_micro": 0.5072697899838449,
+  "test_macro": 0.37142381692904775,
+  "sec": 38,
+  "err": null
+ },
+ {
+  "baseline": "gpt4ts_official",
+  "ds": "finance_sp500",
+  "cfg": {
+   "dropout": 0.0,
+   "learning_rate": 0.001
+  },
+  "gpu": 3,
+  "val_macro": 0.36,
+  "test_micro": 0.48222940226171246,
+  "test_macro": 0.3784879277985404,
+  "sec": 57,
+  "err": null
+ },
+ {
+  "baseline": "gpt4ts_official",
+  "ds": "finance_sp500",
+  "cfg": {
+   "dropout": 0.1,
+   "learning_rate": 0.0001
+  },
+  "gpu": 2,
+  "val_macro": 0.296,
+  "test_micro": 0.462843295638126,
+  "test_macro": 0.3032175107539081,
+  "sec": 42,
+  "err": null
+ },
+ {
+  "baseline": "gpt4ts_official",
+  "ds": "finance_sp500",
+  "cfg": {
+   "dropout": 0.2,
+   "learning_rate": 0.0001
+  },
+  "gpu": 2,
+  "val_macro": 0.259,
+  "test_micro": 0.6308562197092084,
+  "test_macro": 0.336526452221044,
+  "sec": 41,
+  "err": null
+ },
+ {
+  "baseline": "gpt4ts_official",
+  "ds": "finance_sp500",
+  "cfg": {
+   "dropout": 0.1,
+   "learning_rate": 0.001
+  },
+  "gpu": 3,
+  "val_macro": 0.308,
+  "test_micro": 0.6074313408723748,
+  "test_macro": 0.3825109858820128,
+  "sec": 53,
+  "err": null
+ },
+ {
+  "baseline": "gpt4ts_official",
+  "ds": "finance_nikkei",
+  "cfg": {
+   "dropout": 0.1,
+   "learning_rate": 0.0001
+  },
+  "gpu": 2,
+  "val_macro": 0.299,
+  "test_micro": 0.46607431340872374,
+  "test_macro": 0.29602015601073445,
+  "sec": 35,
+  "err": null
+ },
+ {
+  "baseline": "gpt4ts_official",
+  "ds": "finance_nikkei",
+  "cfg": {
+   "dropout": 0.0,
+   "learning_rate": 0.0001
+  },
+  "gpu": 2,
+  "val_macro": 0.339,
+  "test_micro": 0.45638126009693053,
+  "test_macro": 0.30265156149322636,
+  "sec": 56,
+  "err": null
+ },
+ {
+  "baseline": "gpt4ts_official",
+  "ds": "finance_sp500",
+  "cfg": {
+   "dropout": 0.2,
+   "learning_rate": 0.001
+  },
+  "gpu": 3,
+  "val_macro": 0.264,
+  "test_micro": 0.6768982229402262,
+  "test_macro": 0.3835679051106922,
+  "sec": 74,
+  "err": null
+ },
+ {
+  "baseline": "gpt4ts_official",
+  "ds": "finance_nikkei",
+  "cfg": {
+   "dropout": 0.0,
+   "learning_rate": 0.001
+  },
+  "gpu": 3,
+  "val_macro": 0.422,
+  "test_micro": 0.4297253634894992,
+  "test_macro": 0.36774242727419987,
+  "sec": 76,
+  "err": null
+ },
+ {
+  "baseline": "gpt4ts_official",
+  "ds": "finance_nikkei",
+  "cfg": {
+   "dropout": 0.2,
+   "learning_rate": 0.0001
+  },
+  "gpu": 2,
+  "val_macro": 0.289,
+  "test_micro": 0.5444264943457189,
+  "test_macro": 0.31150882937400803,
+  "sec": 36,
+  "err": null
+ },
+ {
+  "baseline": "gpt4ts_official",
+  "ds": "healthcare_mortality",
+  "cfg": {
+   "dropout": 0.0,
+   "learning_rate": 0.0001
+  },
+  "gpu": 2,
+  "val_macro": 0.932,
+  "test_micro": 0.8986666666666666,
+  "test_macro": 0.8704545454545455,
+  "sec": 32,
+  "err": null
+ },
+ {
+  "baseline": "gpt4ts_official",
+  "ds": "healthcare_mortality",
+  "cfg": {
+   "dropout": 0.0,
+   "learning_rate": 0.001
+  },
+  "gpu": 3,
+  "val_macro": 0.932,
+  "test_micro": 0.8933333333333333,
+  "test_macro": 0.8699542238868081,
+  "sec": 25,
+  "err": null
+ },
+ {
+  "baseline": "gpt4ts_official",
+  "ds": "finance_nikkei",
+  "cfg": {
+   "dropout": 0.1,
+   "learning_rate": 0.001
+  },
+  "gpu": 3,
+  "val_macro": 0.346,
+  "test_micro": 0.4596122778675283,
+  "test_macro": 0.32671388180661787,
+  "sec": 72,
+  "err": null
+ },
+ {
+  "baseline": "gpt4ts_official",
+  "ds": "finance_nikkei",
+  "cfg": {
+   "dropout": 0.2,
+   "learning_rate": 0.001
+  },
+  "gpu": 3,
+  "val_macro": 0.288,
+  "test_micro": 0.5565428109854604,
+  "test_macro": 0.3542595118009106,
+  "sec": 54,
+  "err": null
+ },
+ {
+  "baseline": "gpt4ts_official",
+  "ds": "healthcare_mortality",
+  "cfg": {
+   "dropout": 0.1,
+   "learning_rate": 0.001
+  },
+  "gpu": 3,
+  "val_macro": 0.946,
+  "test_micro": 0.8906666666666667,
+  "test_macro": 0.8569780746225617,
+  "sec": 24,
+  "err": null
+ },
+ {
+  "baseline": "gpt4ts_official",
+  "ds": "healthcare_mortality",
+  "cfg": {
+   "dropout": 0.2,
+   "learning_rate": 0.001
+  },
+  "gpu": 3,
+  "val_macro": 0.906,
+  "test_micro": 0.8693333333333333,
+  "test_macro": 0.8229103420360251,
+  "sec": 25,
+  "err": null
+ },
+ {
+  "baseline": "gpt4ts_official",
+  "ds": "healthcare_mortality",
+  "cfg": {
+   "dropout": 0.1,
+   "learning_rate": 0.0001
+  },
+  "gpu": 2,
+  "val_macro": 0.903,
+  "test_micro": 0.8266666666666667,
+  "test_macro": 0.8116145885662615,
+  "sec": 34,
+  "err": null
+ },
+ {
+  "baseline": "gpt4ts_official",
+  "ds": "healthcare_mortality",
+  "cfg": {
+   "dropout": 0.2,
+   "learning_rate": 0.0001
+  },
+  "gpu": 2,
+  "val_macro": 0.903,
+  "test_micro": 0.8533333333333334,
+  "test_macro": 0.8359723558743768,
+  "sec": 39,
+  "err": null
+ },
+ {
+  "baseline": "gpt4ts_official",
+  "ds": "healthcare_positive",
+  "cfg": {
+   "dropout": 0.0,
+   "learning_rate": 0.0001
+  },
+  "gpu": 2,
+  "val_macro": 0.397,
+  "test_micro": 0.8126463700234192,
+  "test_macro": 0.7985373908940787,
+  "sec": 38,
+  "err": null
+ },
+ {
+  "baseline": "gpt4ts_official",
+  "ds": "healthcare_positive",
+  "cfg": {
+   "dropout": 0.1,
+   "learning_rate": 0.0001
+  },
+  "gpu": 2,
+  "val_macro": 0.387,
+  "test_micro": 0.8009367681498829,
+  "test_macro": 0.7867872101698301,
+  "sec": 34,
+  "err": null
+ },
+ {
+  "baseline": "gpt4ts_official",
+  "ds": "healthcare_positive",
+  "cfg": {
+   "dropout": 0.0,
+   "learning_rate": 0.001
+  },
+  "gpu": 3,
+  "val_macro": 0.613,
+  "test_micro": 0.9110070257611241,
+  "test_macro": 0.8978983136169141,
+  "sec": 41,
+  "err": null
+ },
+ {
+  "baseline": "gpt4ts_official",
+  "ds": "healthcare_positive",
+  "cfg": {
+   "dropout": 0.1,
+   "learning_rate": 0.001
+  },
+  "gpu": 3,
+  "val_macro": 0.613,
+  "test_micro": 0.9086651053864169,
+  "test_macro": 0.8954121526142251,
+  "sec": 42,
+  "err": null
+ },
+ {
+  "baseline": "gpt4ts_official",
+  "ds": "healthcare_positive",
+  "cfg": {
+   "dropout": 0.2,
+   "learning_rate": 0.0001
+  },
+  "gpu": 2,
+  "val_macro": 0.387,
+  "test_micro": 0.7939110070257611,
+  "test_macro": 0.7806472703497875,
+  "sec": 33,
+  "err": null
+ },
+ {
+  "baseline": "gpt4ts_official",
+  "ds": "healthcare_positive",
+  "cfg": {
+   "dropout": 0.2,
+   "learning_rate": 0.001
+  },
+  "gpu": 3,
+  "val_macro": 0.602,
+  "test_micro": 0.9016393442622951,
+  "test_macro": 0.8892142327650111,
+  "sec": 38,
+  "err": null
+ }
+]

@@ -7,7 +7,10 @@ import torch
 from torch.utils.data import Dataset, DataLoader
 from sklearn.preprocessing import StandardScaler
 from utils.timefeatures import time_features
-from sktime.datasets import load_from_tsfile_to_dataframe
+try:
+    from sktime.datasets import load_from_tsfile_to_dataframe
+except ImportError:  # sktime is only used by .ts-file loaders; our weather/finance/healthcare use pkl
+    load_from_tsfile_to_dataframe = None
 import warnings
 
 import pickle as pkl

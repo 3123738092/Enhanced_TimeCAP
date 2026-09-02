@@ -3,7 +3,10 @@ import torch.nn as nn
 import numpy as np
 from math import sqrt
 from utils.masking import TriangularCausalMask, ProbMask
-from reformer_pytorch import LSHSelfAttention
+try:
+    from reformer_pytorch import LSHSelfAttention
+except ImportError:  # reformer is only needed by ReformerLayer, which none of our models use
+    LSHSelfAttention = None
 from einops import rearrange, repeat
 
 

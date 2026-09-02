@@ -1,0 +1,107 @@
+[chain] waiting for Qwen to finish ...
+[chain] Qwen ~complete by count
+############ 17:40 START deepseek-ai/DeepSeek-V3 ############
+== PHASE 1 contextualize ==
+-- ctx weather_ny --
+run stats: {'processed': 1883, 'skipped': 1, 'failed': 0, 'aborted': False}
+-- ctx weather_sf --
+run stats: {'processed': 1884, 'skipped': 0, 'failed': 0, 'aborted': False}
+-- ctx weather_hs --
+run stats: {'processed': 1884, 'skipped': 0, 'failed': 0, 'aborted': False}
+-- ctx finance_sp500 --
+run stats: {'processed': 1238, 'skipped': 0, 'failed': 0, 'aborted': False}
+-- ctx finance_nikkei --
+run stats: {'processed': 0, 'skipped': 1238, 'failed': 0, 'aborted': False}
+-- ctx healthcare_mortality --
+run stats: {'processed': 375, 'skipped': 0, 'failed': 0, 'aborted': False}
+-- ctx healthcare_positive --
+run stats: {'processed': 427, 'skipped': 0, 'failed': 0, 'aborted': False}
+== PHASE 2 predictions ==
+-- predict_time weather_ny --
+run stats: {'processed': 376, 'skipped': 0, 'failed': 0, 'aborted': False}
+-- predict_text weather_ny --
+-- predict_in_context weather_ny --
+-- predict_time weather_sf --
+run stats: {'processed': 376, 'skipped': 0, 'failed': 0, 'aborted': False}
+-- predict_text weather_sf --
+run stats: {'processed': 376, 'skipped': 0, 'failed': 0, 'aborted': False}
+-- predict_in_context weather_sf --
+run stats: {'processed': 376, 'skipped': 0, 'failed': 0, 'aborted': False}
+-- predict_time weather_hs --
+run stats: {'processed': 376, 'skipped': 0, 'failed': 0, 'aborted': False}
+-- predict_text weather_hs --
+run stats: {'processed': 376, 'skipped': 0, 'failed': 0, 'aborted': False}
+-- predict_in_context weather_hs --
+run stats: {'processed': 376, 'skipped': 0, 'failed': 0, 'aborted': False}
+-- predict_time finance_sp500 --
+run stats: {'processed': 247, 'skipped': 0, 'failed': 0, 'aborted': False}
+-- predict_text finance_sp500 --
+run stats: {'processed': 247, 'skipped': 0, 'failed': 0, 'aborted': False}
+-- predict_in_context finance_sp500 --
+run stats: {'processed': 247, 'skipped': 0, 'failed': 0, 'aborted': False}
+-- predict_time finance_nikkei --
+run stats: {'processed': 247, 'skipped': 0, 'failed': 0, 'aborted': False}
+-- predict_text finance_nikkei --
+run stats: {'processed': 247, 'skipped': 0, 'failed': 0, 'aborted': False}
+-- predict_in_context finance_nikkei --
+run stats: {'processed': 247, 'skipped': 0, 'failed': 0, 'aborted': False}
+-- predict_time healthcare_mortality --
+run stats: {'processed': 75, 'skipped': 0, 'failed': 0, 'aborted': False}
+-- predict_text healthcare_mortality --
+run stats: {'processed': 75, 'skipped': 0, 'failed': 0, 'aborted': False}
+-- predict_in_context healthcare_mortality --
+run stats: {'processed': 75, 'skipped': 0, 'failed': 0, 'aborted': False}
+-- predict_time healthcare_positive --
+run stats: {'processed': 85, 'skipped': 0, 'failed': 0, 'aborted': False}
+-- predict_text healthcare_positive --
+run stats: {'processed': 85, 'skipped': 0, 'failed': 0, 'aborted': False}
+-- predict_in_context healthcare_positive --
+run stats: {'processed': 85, 'skipped': 0, 'failed': 0, 'aborted': False}
+== COST deepseek-ai/DeepSeek-V3 ==
+=== ACTUAL COST (USD)  [channel=siliconflow model=deepseek-ai/DeepSeek-V3] ===
+task \ dataset             NY       SF       HS    SP500   Nikkei     Mort      Pos     row$
+--------------------------------------------------------------------------------------------
+contextualize            0.64     0.64     0.64     0.56     0.00     0.12     0.16     2.75
+predict_time             0.07     0.07     0.07     0.08     0.08     0.01     0.02     0.39
+predict_text             0.00     0.03     0.03     0.03     0.03     0.01     0.01     0.12
+predict_in_context       0.00     0.11     0.11     0.08     0.08     0.03     0.03     0.44
+--------------------------------------------------------------------------------------------
+TOTAL                    0.71     0.85     0.85     0.74     0.18     0.16     0.21     3.70
+
+=== calls per cell ===
+task \ dataset             NY       SF       HS    SP500   Nikkei     Mort      Pos
+contextualize            1884     1884     1884     1238        0      375      427
+predict_time              376      376      376      247      247       75       85
+predict_text                0      376      376      247      247       75       85
+predict_in_context          0      376      376      247      247       75       85
+
+total successful calls: 12286  total cost: $3.7007
+WARNING: 1 calls had no price (model not in llm/pricing.py); tokens counted, cost not. Add the model's price to include it.
+== METRICS deepseek-ai/DeepSeek-V3 ==
+Scored predictions under: pipeline_out/deepseek-ai_DeepSeek-V3
+
+=== F1-macro ===
+task \ dataset             NY       SF       HS    SP500   Nikkei     Mort      Pos
+-----------------------------------------------------------------------------------
+predict_time            0.570    0.567    0.550    0.315    0.365    0.860    0.935
+predict_text                -    0.600    0.584    0.324    0.325    0.776    0.913
+predict_in_context          -    0.570    0.602    0.310    0.367    0.860    0.950
+
+=== F1-micro (accuracy) ===
+task \ dataset             NY       SF       HS    SP500   Nikkei     Mort      Pos
+-----------------------------------------------------------------------------------
+predict_time            0.644    0.604    0.561    0.591    0.591    0.920    0.941
+predict_text                -    0.710    0.665    0.538    0.466    0.853    0.918
+predict_in_context          -    0.697    0.673    0.607    0.518    0.920    0.953
+
+=== AUC (from hard labels — approximate) ===
+task \ dataset             NY       SF       HS    SP500   Nikkei     Mort      Pos
+-----------------------------------------------------------------------------------
+predict_time            0.629    0.583    0.631    0.490    0.530    0.954    0.932
+predict_text                -    0.595    0.588    0.500    0.489    0.915    0.929
+predict_in_context          -    0.570    0.610    0.496    0.516    0.954    0.964
+
+Coverage: 100% of test predictions found and parsed for every cell.
+############ 22:46 START deepseek-ai/DeepSeek-R1 ############
+== PHASE 1 contextualize ==
+-- ctx weather_ny --

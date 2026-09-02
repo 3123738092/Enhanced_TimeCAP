@@ -12,7 +12,7 @@ import pickle as pkl
 import pdb
 from sklearn.metrics import f1_score
 
-from model import Model
+import importlib
 
 warnings.filterwarnings('ignore')
 
@@ -54,7 +54,8 @@ class Exp_Basic(object):
 class Exp_Classification(Exp_Basic):
     def __init__(self, args):
         super(Exp_Classification, self).__init__(args)
-        self.model = Model(args, self.device).float().to(self.device)
+        ModelClass = importlib.import_module(getattr(args, "model_arch", "model")).Model
+        self.model = ModelClass(args, self.device).float().to(self.device)
 
     def _build_model(self):
         # model input depends on data
@@ -68,10 +69,7 @@ class Exp_Classification(Exp_Basic):
             self.args.enc_in = train_data.num_feature
         self.args.num_class = len(train_data.class_names)
         
-        # model init
-        model = Model(self.args, self.device).float()
-
-        #return model_time, model_text
+        # model is created in Exp_Classification.__init__ (dynamically via --model_arch)
 
     def _get_data(self, flag):
         data_set, data_loader = data_provider(self.args, flag)
